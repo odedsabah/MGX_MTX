@@ -17,14 +17,15 @@ import pandas as pd
 # min_length = 900
 # max_length = 1100
 
-if len(sys.argv) != 5:
+if len(sys.argv) != 6:
         quit("\nUsage: " + sys.argv[0] + " <MGX-coverage-stats> <gff-file> <min-length> <max_length> \n")
 
 
-MGX_coverage_stats = sys.argv[1] #The input (MGX_coverage_stats) is output of cal_dist.py in test3
-gff_file = sys.argv[2]
-min_length = sys.argv[3]
-max_length = sys.argv[4]
+MGX_coverage_stats = sys.argv[1]  #The input (MGX_coverage_stats) is output of cal_dist.py in test3
+MTX_coverage_stats = sys.argv[2]
+gff_file = sys.argv[3]
+min_length = sys.argv[4]
+max_length = sys.argv[5]
 
 valid_contigs = []
 with open(gff_file) as fin:
