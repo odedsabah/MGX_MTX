@@ -71,7 +71,8 @@ def MGX_C2_DF (MGX_coverage_stats, MTX_coverage_stats):
     except:
         print("Unexpected : " + MTX_DF["Contig"])
 
-MGX_C2_DF(MGX_coverage_stats, MTX_coverage_stats)
+if __name__ == '__main__':
+    print(MGX_C2_DF(MGX_coverage_stats, MTX_coverage_stats))
 
 
 

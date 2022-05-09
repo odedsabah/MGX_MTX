@@ -78,7 +78,7 @@ sample
 
 library(circlize)
 circos.par(gap.degree = 4)
-chordDiagram(sample, directional = TRUE, annotationTrack = "grid",
+chordDiagram(sample, directional = TRUE, annotationTrack = "grap",
   preAllocateTracks = list(list(track.height = 0.05),
                            list(track.height = 0.05)))
 circos.trackPlotRegion(track.index = 1, panel.fun = function(x, y) {
