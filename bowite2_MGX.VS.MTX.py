@@ -8,13 +8,16 @@ import subprocess
 import random
 from os import listdir
 from os.path import isfile, join
-
+from subprocess import Popen, PIPE
+from pathlib import Path
+from tempfile import TemporaryDirectory
 
 if len(sys.argv) != 4:
-    quit("\nUsage: " + sys.argv[0] + " <path_MGX_fasta_file> + <path_MTX_fasta_file> + <output_directory> \n\n")
+    quit("\nUsage: " + sys.argv[0] + " <path_MGX_fasta_file> + <path_MTX_fasta_file> + <path_esco_index> + <output_directory> \n\n")
 
 path_MGX_fasta_file = sys.argv[1]
 path_MTX_fasta_file = sys.argv[2] # directory containing fastq.gz files
+path_esco_index = sys.argv[2] # options
 output_directory = sys.argv[3]
 
 # import data
@@ -47,28 +50,59 @@ os.mkdir(output_directory)
 bt2_dir = output_directory + "/bt2"
 os.mkdir(bt2_dir)
 
-def bowite2_index (R_40, path_MGX_fasta_file, path_MTX_fasta_file):
-    for sample in R_40.index:
-        for for_index_bt2 in os.listdir(path_MGX_fasta_file):
-            for for_map_bt2 in os.listdir(path_MTX_fasta_file):
-            #print(for_index_bt2)
-                if sample[0] in for_index_bt2 and sample[0] in for_map_bt2:
-                    try:
-                        print(sample[0])
-                        #bowtie2-build bt2/CSM79HGP.assembly.fna bt2/CSM79HGP.assembly.fna >bt2/CSM79HGP.assembly.fna.stdout 2> bt2/CSM79HGP.assembly.fna.stderr
-                        bt2_dir = subprocess.Popen(["bowtie2-build", path_MGX_fasta_file + "/" + sample[0] + "/2.post-assembly/assembly.min500.fna","/home/odeds/bt_40/bt2/db_bt" , ">", path_MGX_fasta_file, sample[0] + "/2.post-assembly/assembly.min500.fna", ".assembly.fna.stdout", "2>" + path_MGX_fasta_file, sample[0] + "/2.post-assembly/assembly.min500.fna", ".assembly.fna.stderr"])
-                        #bt2_dir = subprocess.call(["bowtie2-build", os.path.join(path_MGX_fasta_file, sample[0], "/2.post-assembly/assembly.min500.fna"), os.path.join(">", path_MGX_fasta_file, sample[0], "/2.post-assembly/assembly.min500.fna", ".assembly.fna.stdout"), os.path.join("2>", path_MGX_fasta_file, sample[0], "/2.post-assembly/assembly.min500.fna", ".assembly.fna.stderr")])
-                        print(bt2_dir)
-                        bt2_dir.wait()
+def read_map(fna: Path, reads: Path, output: Path, num_threads: int):
+    """
+    Using bowtie2, shrinksam and samtools, creates a sorted and indexed bam file.
+    The file is written into the given output path.
+    Logs are not kept.
+    Clean ups after self.
+    """
+    with TemporaryDirectory() as work_dir:
+        steps = [f'bowtie2-build -f {fna.as_posix()} {work_dir}/bt2db',
+                 f'bowtie2 -p {num_threads} --very-sensitive -x {work_dir}/bt2db -U {reads.as_posix()} 2> {output.as_posix()}.log | shrinksam > {work_dir}/unsorted.bam',
+                 f'samtools sort {work_dir}/unsorted.bam > {output.as_posix()}',
+                 f'samtools index {output.as_posix()}']
+        for step in steps:
+            p = Popen(step, shell=True,
+                      stderr=PIPE,
+                      stdout=PIPE)
+            p.wait()
 
-                        # bowtie2 -x bt2/CSM79HGP.assembly.fna -U /data1/Human/ibdmdb2/metatranscriptomics/raw.d/CSM79HGP.fastq.gz -p 30 --very-sensitive --no-head --no-unal -S mtx.vs.CSM79HGP.assembly.fna.sam 2> mtx.vs.CSM79HGP.assembly.fna.sam.stderr
-                        R_bt2 =subprocess.Popen([ "bowtie2 -x " + "/home/odeds/bt_40/bt2/db_bt" + " -U " + path_MTX_fasta_file + "/" + sample[0] + "--very-sensitive -p 60  " + "--no-head --no-unal " ,"-o" + "/home/odeds/bt_40/" + sample[0] + ".sam" ])
-                        print(R_bt2)
-                    except:
-                        print(sample[0] + "it's not found")
+
+def bowite2_index (R_40, path_MGX_fasta_file, path_MTX_fasta_file):
+    fasta_base_path = Path(path_MGX_fasta_file)
+    reads_base_path = Path(path_MTX_fasta_file)
+    phenotypes = ('CD', 'control', 'UC')
+    for sample in R_40.index:
+        for pheno in phenotypes:
+            sample_fasta = fasta_base_path / pheno / 'assembly.d' / sample[0] / '2.post-assembly' / 'assembly.min500.fna'
+            if sample_fasta.is_file():
+                break
+        sample_reads = reads_base_path / f'{sample[0]}.fastq.gz'
+        if sample_fasta.is_file() and sample_reads.is_file():
+            print(sample[0])
+            read_map(fna=sample_fasta,
+                     reads=sample_reads,
+                     output=Path(f'/home/odeds/bt_40/{sample[0]}.{pheno}.sorted.bam'),
+                     num_threads=60)
+        else:
+            print(f'Sample {sample[0]} not found, looking in  {sample_fasta} and {sample_reads}')
+
+
+                    #     #bowtie2-build bt2/CSM79HGP.assembly.fna bt2/CSM79HGP.assembly.fna >bt2/CSM79HGP.assembly.fna.stdout 2> bt2/CSM79HGP.assembly.fna.stderr
+                    #     bt2_dir = subprocess.Popen(["bowtie2-build", path_MGX_fasta_file + "/" + sample[0] + "/2.post-assembly/assembly.min500.fna", "/home/odeds/bt_40/bt2/db_bt" , ">", path_MGX_fasta_file, sample[0] + "/2.post-assembly/assembly.min500.fna", ".assembly.fna.stdout", "2>" + path_MGX_fasta_file, sample[0] + "/2.post-assembly/assembly.min500.fna", ".assembly.fna.stderr"])
+                    #     bt2_dir = subprocess.call(["bowtie2-build", os.path.join(path_MGX_fasta_file, sample[0], "/2.post-assembly/assembly.min500.fna"), os.path.join(">", path_MGX_fasta_file, sample[0], "/2.post-assembly/assembly.min500.fna", ".assembly.fna.stdout"), os.path.join("2>", path_MGX_fasta_file, sample[0], "/2.post-assembly/assembly.min500.fna", ".assembly.fna.stderr")])
+                    #     print(bt2_dir)
+                    #     bt2_dir.wait()
+                    #
+                    #     bowtie2 -x bt2/CSM79HGP.assembly.fna -U /data1/Human/ibdmdb2/metatranscriptomics/raw.d/CSM79HGP.fastq.gz -p 30 --very-sensitive --no-head --no-unal -S mtx.vs.CSM79HGP.assembly.fna.sam 2> mtx.vs.CSM79HGP.assembly.fna.sam.stderr
+                    #     bowtie2 -x bt2/CSM79HGP.assembly.fna -U /data1/Human/ibdmdb2/metatranscriptomics/raw.d/CSM79HGP.fastq.gz -p 30 --very-sensitive --no-head --no-unal -S mtx.vs.CSM79HGP.assembly.fna.sam 2> mtx.vs.CSM79HGP.assembly.fna.sam.stderr
+                    #     R_bt2 = subprocess.Popen(["bowtie2 -x " + "/home/odeds/bt_40/bt2/db_bt" + " -U " + path_MTX_fasta_file + "/" + sample[0] + "--very-sensitive -p 60  " + "--no-head --no-unal ", "-o" + "/home/odeds/bt_40/db_bt/" + sample[0] + ".sam"])
+                    #     print(R_bt2)
+                    # except:
+                    #     print(sample[0] + "it's not found")
 
 bowite2_index( R_40 ,path_MGX_fasta_file, path_MTX_fasta_file)
-
 
 
 
