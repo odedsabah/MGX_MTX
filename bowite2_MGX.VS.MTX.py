@@ -13,11 +13,10 @@ from pathlib import Path
 from tempfile import TemporaryDirectory
 
 if len(sys.argv) != 4:
-    quit("\nUsage: " + sys.argv[0] + " <path_MGX_fasta_file> + <path_MTX_fasta_file> + <path_esco_index> + <output_directory> \n\n")
+    quit("\nUsage: " + sys.argv[0] + " <path_MGX_fasta_file> + <path_MTX_fasta_file> + <output_directory> \n\n")
 
 path_MGX_fasta_file = sys.argv[1]
 path_MTX_fasta_file = sys.argv[2] # directory containing fastq.gz files
-path_esco_index = sys.argv[2] # options
 output_directory = sys.argv[3]
 
 # import data
