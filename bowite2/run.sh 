@@ -1,0 +1,8 @@
+#!/bin/bash
+
+mkdir bt2
+cd bt2
+ln -s /data1/Human/ibdmdb2/CD/assembly.d/CSM79HGP/2.post-assembly/assembly.min500.fna CSM79HGP.assembly.fna
+cd ..
+bowtie2-build bt2/CSM79HGP.assembly.fna bt2/CSM79HGP.assembly.fna >bt2/CSM79HGP.assembly.fna.stdout 2> bt2/CSM79HGP.assembly.fna.stderr
+bowtie2 -p 30 --very-sensitive -x bt2/CSM79HGP.assembly.fna -U /data1/Human/ibdmdb2/metatranscriptomics/raw.d/CSM79HGP.fastq.gz --no-head --no-unal -S mtx.vs.CSM79HGP.assembly.fna.sam 2> mtx.vs.CSM79HGP.assembly.fna.sam.stderr
