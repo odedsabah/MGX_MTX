@@ -13,7 +13,7 @@ import pandas as pd
 
 
 
-class species:
+class Species_Abundance:
     def __init__(self, path_of_braken_output):
         self.species_main = None
         self.path_of_braken_output = path_of_braken_output  # defines the variable into class
@@ -62,9 +62,9 @@ def main():
 
     path_of_braken_output = sys.argv[1]
 
-    g = species(path_of_braken_output)
-    g.find_species()
-    g.marge2main()
+    S = Species_Abundance(path_of_braken_output)
+    S.find_species()
+    S.marge2main()
 
 if __name__ == '__main__':
     main()
