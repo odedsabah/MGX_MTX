@@ -29,7 +29,7 @@ class merging_tables:
             if is_numeric_dtype(self.species_main_MGX[column]):
                 if sum(self.species_main_MGX[column]) < 1:
                     self.species_main_MGX.drop([column], axis=1, inplace=True)
-        self.species_main_MGX.to_csv("/Users/odedsabah/Desktop/test10.csv" ,index=True)
+        self.species_main_MGX.to_csv("/Users/odedsabah/Desktop/merge_MGX.csv" ,index=True)
 
 
 def main():
