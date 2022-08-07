@@ -21,6 +21,7 @@ def division_species_tables(MGX_file, MTX_file, Phenotype):
     MTX_file = pd.read_csv(MTX_file)
     MGX_file = MGX_file.set_index(["Unnamed: 0"])
     MTX_file = MTX_file.set_index(["Unnamed: 0"])
+    MGX_file = MGX_file.loc[:,MTX_file.columns]
 
     division_tables = MTX_file.div(MGX_file)
 
