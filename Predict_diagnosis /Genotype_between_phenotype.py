@@ -31,7 +31,7 @@ def division_species_tables(MGX_file, MTX_file):
     division_tables = division_tables.loc[:,(division_tables**2).sum() != 0]
 
     division_tables = pd.concat([division_tables,MGX_file["Diagnosis"]], axis =1 )
-    division_tables.to_csv(f'/Users/odedsabah/Desktop/division_tables.csv', index=True)
+    division_tables.to_csv(f'/Users/odedsabah/Desktop/Genotype_between_phenotype.csv', index=True)
 
 
 

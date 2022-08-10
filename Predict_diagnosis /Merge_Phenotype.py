@@ -1,5 +1,4 @@
 import pandas as pd
-from pandas.api.types import is_numeric_dtype
 import numpy as np
 import sys
 
@@ -22,14 +21,18 @@ class merging_tables:
         self.species_main_MGX = self.species_main_MGX.T.drop_duplicates(keep='last').T.replace(["",np.NAN], 0)
         self.species_main_MGX = self.species_main_MGX.drop("species_name", axis=1)
         # self.species_main_MGX.to_csv("/Users/odedsabah/Desktop/test10.csv" ,index=True)
-        # print(self.species_main_MGX)
+
 
     def species_threshold(self):
-        for column in self.species_main_MGX.columns[1:]:
-            if is_numeric_dtype(self.species_main_MGX[column]):
-                if sum(self.species_main_MGX[column]) < 1:
-                    self.species_main_MGX.drop([column], axis=1, inplace=True)
-        self.species_main_MGX.to_csv("/Users/odedsabah/Desktop/merge_MGX.csv" ,index=True)
+        self.species_main = self.species_main_MGX.loc[:, (self.species_main_MGX == 0).mean() < 0.8]
+        self.species_main.to_csv("/Users/odedsabah/Desktop/MTX.csv")
+
+
+        # for column in self.species_main_MGX.columns[1:]:
+        #     if is_numeric_dtype(self.species_main_MGX[column]):
+        #         if sum(self.species_main_MGX[column]) < 1:
+        #             self.species_main_MGX.drop([column], axis=1, inplace=True)
+        # self.species_main_MGX.to_csv("/Users/odedsabah/Desktop/merge_MGX.csv" ,index=True)
 
 
 def main():
