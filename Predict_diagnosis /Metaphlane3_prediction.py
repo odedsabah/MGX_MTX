@@ -1,0 +1,50 @@
+import pandas as pd
+import os
+import sys
+
+
+class Metaphlane3_abundance:
+
+    def __init__(self,Path_MGX_MP):
+        self.Path_MGX_MP_CD = Path_MGX_MP
+        self.species_abundance = None
+        self.Taxa_Abundance = None
+        self.species_main = None
+
+    def get_data(self):
+        '''
+        This function reads the information from a metaphlan file and stores it in two lists (bacteria_name, percent_list)
+        '''
+        self.species_abundance = dict()
+        samples = [x for x in os.listdir(self.Path_MGX_MP_CD) if x.endswith(".txt")]
+        for sample in samples:
+            sample_name = sample.split('.')[0]
+            # print(sample_name)
+            with open(f'{self.Path_MGX_MP_CD}/{sample}') as s:
+                f = s.readlines()
+            for line in f:
+                #k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Lachnospiraceae|g__Coprococcus|s__Coprococcus_comes 2|1239|186801|186802|186803|33042|410072        0.00264
+                if line.startswith("k__Bacteria"):
+                    try:
+                        self.species_abundance[line.strip().split()[0].split("|")[-1]] = line.split()[2]
+                    except:
+                        print(f'this values: {line.split()[2]} is not abundance ')
+                self.Taxa_Abundance = pd.DataFrame((self.species_abundance.items()), columns=['Abundance',sample_name]).set_index('Abundance')
+
+            self.species_main = pd.concat([self.species_main,self.Taxa_Abundance ], axis=1, join="outer")
+        self.species_main.to_csv("~/Metaphlan3_prediction/Metaphlan3_p_control.csv")
+
+
+def main():
+    if len(sys.argv) != 2:
+        quit("\nUsage: " + sys.argv[0] + "Path_MGX_MP \n\n")
+
+    Path_MGX_MP = sys.argv[1]
+
+    M_A = Metaphlane3_abundance(Path_MGX_MP)
+    M_A.get_data()
+
+if __name__ == '__main__':
+    main()
+
+
