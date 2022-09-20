@@ -22,17 +22,28 @@ def division_species_tables(MGX_file, MTX_file):
     MTX_file = pd.read_csv(MTX_file).T
     MGX_file = MGX_file.rename(columns=MGX_file.iloc[0]).drop(MGX_file.index[0])
     MTX_file = MTX_file.rename(columns=MTX_file.iloc[0]).drop(MTX_file.index[0])
-    MGX_file = MGX_file.loc[:,MTX_file.columns] # keep over only examples found in both MGX and MTX
-    MGX_file = MGX_file.T.replace(0, np.nan)
-    MTX_file = MTX_file.T.replace(0, np.nan)
+    MGX_file = MGX_file.loc[:,MTX_file.columns].T # keep over only examples found in both MGX and MTX
+    MTX_file = MTX_file.T
+    MGX_file.insert((len(MGX_file.columns)-1), "Diagnosis", MGX_file.pop("Diagnosis"))
+    MTX_file.insert((len(MTX_file.columns)-1), "Diagnosis", MTX_file.pop("Diagnosis"))
 
-    division_tables = MTX_file.iloc[:,1:].div(MGX_file.iloc[:,1:])
-    division_tables.replace([np.nan, -np.nan], 0, inplace=True)
-    division_tables = division_tables.loc[:,(division_tables**2).sum() != 0]
+    MGX_file_ = MGX_file.loc[:, MGX_file.columns != "Diagnosis"]
+    MTX_file_ = MTX_file.loc[:, MTX_file.columns != "Diagnosis"]
 
-    division_tables = pd.concat([division_tables,MGX_file["Diagnosis"]], axis =1 )
-    division_tables.to_csv(f'/Users/odedsabah/Desktop/Genotype_between_phenotype.csv', index=True)
+    MGX_file_ = MGX_file_.replace(0, np.nan)
+    MTX_file_ = MTX_file_.replace(0, np.nan)
+    # print(MGX_file_)
+    # print(MTX_file_)
 
+    division_tables = MTX_file_.div(MGX_file_)
+
+    division_tables = division_tables.loc[:,division_tables.columns.str.startswith('s__')]
+
+    # division_tables = division_tables.loc[:,(division_tables**2).sum() != 0]
+    division_tables = pd.concat([division_tables, MTX_file["Diagnosis"]], axis =1)
+    division_tables = division_tables.loc[:,division_tables.isnull().mean() < .8]
+    division_tables.replace([np.nan, -np.nan] ,0 , inplace=True)
+    division_tables.to_csv('~/MGX_VS_MTX_mp4.csv', index=True)
 
 
 def main():
