@@ -24,7 +24,7 @@ class Metaphlane3_abundance:
                 key = split_line.split('|')[-1]
                 self.dict_Hierarchical[key] = split_line
         self.Name_Hierarchical = pd.DataFrame.from_dict(self.dict_Hierarchical,orient='index')
-        self.Name_Hierarchical.to_csv("~/Metaphlan4_prediction/Metaphlan4_set_species_control.csv")
+        self.Name_Hierarchical.to_csv("~/Metaphlan4_prediction/Metaphlan4_set_species_UC.csv")
 
 def main():
     if len(sys.argv) != 2:

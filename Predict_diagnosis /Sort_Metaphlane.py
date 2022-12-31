@@ -3,7 +3,7 @@ import os
 import sys
 
 
-class Metaphlane3_abundance:
+class Metaphlane4_abundance:
 
     def __init__(self,Path_MGX_MP):
         self.Path_MGX_MP_CD = Path_MGX_MP
@@ -19,6 +19,8 @@ class Metaphlane3_abundance:
         samples = [x for x in os.listdir(self.Path_MGX_MP_CD) if x.endswith(".txt")]
         for sample in samples:
             sample_name = sample.split('.')[0]
+            for k in self.species_abundance:
+                self.species_abundance[k] = 0
             # print(sample_name)
             with open(f'{self.Path_MGX_MP_CD}/{sample}') as s:
                 f = s.readlines()
@@ -26,13 +28,13 @@ class Metaphlane3_abundance:
                 #k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Lachnospiraceae|g__Coprococcus|s__Coprococcus_comes 2|1239|186801|186802|186803|33042|410072        0.00264
                 if line.startswith("k__Bacteria"):
                     try:
-                        self.species_abundance[line.strip().split()[0].split("|")[-1]] = line.split()[2]
+                        self.species_abundance[line.strip().split("\t")[0].split("|")[-1]] = line.split()[2]
                     except:
                         print(f'this values: {line.split()[2]} is not abundance ')
-                self.Taxa_Abundance = pd.DataFrame((self.species_abundance.items()), columns=['Abundance',sample_name]).set_index('Abundance')
+            self.Taxa_Abundance = pd.DataFrame((self.species_abundance.items()), columns=['Abundance',sample_name]).set_index('Abundance')
 
-            self.species_main = pd.concat([self.species_main,self.Taxa_Abundance ], axis=1, join="outer")
-        self.species_main.to_csv("~/Metaphlan4_prediction/Metaphlan4_MTX_control.csv")
+            self.species_main = pd.concat([self.species_main,self.Taxa_Abundance], axis=1, join="outer")
+        self.species_main.to_csv("~/Metaphlan4_prediction/Metaphlan4_MTX_Control.csv")
 
 
 def main():
@@ -41,7 +43,7 @@ def main():
 
     Path_MGX_MP = sys.argv[1]
 
-    M_A = Metaphlane3_abundance(Path_MGX_MP)
+    M_A = Metaphlane4_abundance(Path_MGX_MP)
     M_A.get_data()
 
 if __name__ == '__main__':

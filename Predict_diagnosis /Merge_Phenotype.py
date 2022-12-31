@@ -21,7 +21,7 @@ class merging_tables:
         self.control_tables["Diagnosis"] = "Control"
         self.species_main_MGX = pd.concat([self.CD_tables, self.UC_tablas], axis=0, join="outer")
         self.species_main_MGX = pd.concat([self.species_main_MGX, self.control_tables], axis=0, join="outer")
-        self.species_main_MGX["Diagnosis"]  = self.species_main_MGX[["Diagnosis"]].fillna('').agg(''.join, axis=1)
+        # self.species_main_MGX["Diagnosis"]  = self.species_main_MGX[["Diagnosis"]].fillna('').agg(''.join, axis=1)
         self.species_main_MGX = self.species_main_MGX.replace(["", np.NAN], 0)
 
 
@@ -35,9 +35,7 @@ class merging_tables:
 
     def species_threshold(self):
         self.species_main = self.species_main_MGX.loc[:,self.species_main_MGX.isnull().mean() < .8] # (self.species_main_MGX == 0).mean() <= 0.8]
-        self.species_main.to_csv("~/ESCO_all_pheno__.csv")
-
-
+        self.species_main.to_csv("~/Metaphlan4_all_pheno.csv")
 
 
 def main():
