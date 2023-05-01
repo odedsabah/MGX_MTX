@@ -4,6 +4,7 @@
 import sys
 import gzip
 import os
+import pandas as pd
 
 
 '''selected_reads(sample_size) is a function that returns a list of the number of reads to
@@ -30,15 +31,25 @@ def prepare_fastq_file(fastq_file, fastq_file_out, jump, num_reads):
                 if counter // jump == num_reads:
                     break
 
+def cal_sample_size(read_stats,fastq_file):
+    id = fastq_file.split('/')[5]
+    df_size = pd.read_csv(read_stats, delimiter='\t', skiprows=1)
+    size_by_id = df_size[df_size.iloc[:, 0].str.startswith(id)]
+    sample_size = int(size_by_id.iloc[:, 3])
+    return sample_size
+
+
 def main():
 
-    if len(sys.argv) != 2:
-        quit("\nUsage: " + sys.argv[0] + " <path_fastq_file> \n\n")
+    if len(sys.argv) != 3:
+        quit("\nUsage: " + sys.argv[0] + " <path_fastq_file> <read_stats> \n\n")
 
     fastq_file = sys.argv[1]
+    read_stats = sys.argv[2]
 
-    sample_size = 258e6
+    sample_size = cal_sample_size(read_stats, fastq_file)
     dict_selected_read = selected_reads(sample_size)
+
 
     if not os.path.isdir(f"mp4.depth_.{fastq_file.split('/')[5]}"):
         os.mkdir(f"mp4.depth_.{fastq_file.split('/')[5]}")
