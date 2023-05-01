@@ -10,7 +10,6 @@ def prepare_fastq_file(fastq_file, fout_list, jump, num_reads):
             line += fin.readline()
             line += fin.readline()
             group = i % 10
-            print(group)
             if (i - group) % jump == 0:
                 print(i, group, line)
                 fout_list[group].write(line)
