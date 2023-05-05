@@ -34,7 +34,7 @@ class Metaphlane4_abundance:
             self.Taxa_Abundance = pd.DataFrame((self.species_abundance.items()), columns=['Abundance',sample_name]).set_index('Abundance')
 
             self.species_main = pd.concat([self.species_main,self.Taxa_Abundance], axis=1, join="outer")
-        self.species_main.to_csv("~/Metaphlan4_prediction/Metaphlan4_pilot_all_pheno.csv")
+        self.species_main.to_csv("~/metaanalysis/species_main_sim.csv")
 
 
 def main():

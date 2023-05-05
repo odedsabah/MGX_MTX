@@ -2,6 +2,7 @@
 
 import sys
 import os
+import subprocess
 import gzip
 import pandas as pd
 
@@ -16,12 +17,21 @@ def Get_id(fastq_file):
     # print(file_paths, id_files)
     return file_paths, id_files
 
-def Create_ref (Taxa_list_ref):
+def Create_ref(Taxa_list_ref):
     Taxa_list_ref = pd.read_csv(Taxa_list_ref, header= None, delimiter='\t')
     Taxa_list_ref['Species'] = 's__' + Taxa_list_ref.iloc[:,0].str.split().str[:2].str.join("_")
     Taxa_list_ref['Abundance'] = 10
     Taxa_list_ref = Taxa_list_ref.iloc[:, 1:].set_index('Species')
     return Taxa_list_ref
+
+def Mp4_txt_2_csv():
+    script_path = '~/MGX_MTX/Predict_diagnosis/MetaPhlan/Sort_Metaphlane.py'
+    data_dir = '~/metaanalysis/mp4.simulation/'
+    subprocess.run(f'python3 {script_path} {data_dir}', shell=True)
+    Taxa_ab = pd.read_csv("~/metaanalysis/species_main_sim.csv")
+    Taxa_ab = Taxa_ab[Taxa_ab.iloc[:,0].apply(lambda x: x.startswith('s__'))].set_index('Abundance')
+    print(Taxa_ab)
+
 
 def main():
 
@@ -34,12 +44,14 @@ def main():
     file_paths, id_files = Get_id(path_fastq_file_X_cov)
     Create_ref(Taxa_list_ref)
 
-    if not os.path.isdir("mp4.Simulation"):
-        os.mkdir("mp4.simulation")
-    for path_file, id_file in zip(file_paths, id_files):
-        metaphlan_file_out = f"{id_file}.txt"
-        os.system(f'/data1/software/metaphlan/run-metaphlan.sh {path_file} ~/metaanalysis/mp4.simulation/{metaphlan_file_out}'
-                  f' 40 > ~/metaanalysis/mp4.simulation/{metaphlan_file_out}.stdout')
+    # if not os.path.isdir("mp4.Simulation"):
+    #     os.mkdir("mp4.simulation")
+    # for path_file, id_file in zip(file_paths, id_files):
+    #     metaphlan_file_out = f"{id_file}.txt"
+    #     os.system(f'/data1/software/metaphlan/run-metaphlan.sh {path_file} ~/metaanalysis/mp4.simulation/{metaphlan_file_out}'
+    #               f' 40 > ~/metaanalysis/mp4.simulation/{metaphlan_file_out}.stdout')
+
+    Mp4_txt_2_csv()
 
 if __name__ == '__main__':
     main()
