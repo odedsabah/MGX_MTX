@@ -18,12 +18,12 @@ def prepare_fastq_file(fastq_file, fout_list, jump, sample_size):
                     break
 
 def cal_sample_size(read_stats,fastq_file):
-    id = fastq_file.split('/')[5]
+    id_file = fastq_file.split('/')[5]
     df_size = pd.read_csv(read_stats, delimiter='\t', skiprows=1)
     size_by_id = df_size[df_size.iloc[:, 0].str.startswith(id)]
     sample_size = int(size_by_id.iloc[:, 3])
     sample_size = math.floor(sample_size / 1e7) * 1e7
-    return sample_size, id
+    return sample_size, id_file
 
 def main():
 
@@ -34,7 +34,7 @@ def main():
     Read_stats = sys.argv[2]
     input_file = Path_MP4_files
     # Define the input and output file paths
-    sample_size, id = cal_sample_size(Read_stats, Path_MP4_files)
+    sample_size, id_file = cal_sample_size(Read_stats, Path_MP4_files)
     num_reads = 0
     while True:
         num_reads += 1e6
@@ -55,13 +55,6 @@ def main():
         # Close all output files
         for fout in fout_list:
             fout.close()
-
-        if not os.path.isdir("mp4.Split"):
-            os.mkdir("mp4.Split")
-        for path_file, id_file in zip(file_paths, id_files):
-            metaphlan_file_out = f"{id_file}.txt"
-            os.system(f'/data1/software/metaphlan/run-metaphlan.sh {path_file} ~/metaanalysis/mp4.simulation/{metaphlan_file_out}'
-                      f' 40 > ~/metaanalysis/mp4.simulation/{metaphlan_file_out}.stdout')
 if __name__ == '__main__':
     main()
 
