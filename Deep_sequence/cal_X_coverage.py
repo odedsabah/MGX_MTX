@@ -6,7 +6,6 @@ import subprocess
 import gzip
 import pandas as pd
 
-
 def Get_id(fastq_file):
     # list the files in the fastq_file directory and filter for .fastq.gz files
     files_list = [file for file in os.listdir(fastq_file) if file.endswith('.fastq.gz')]
@@ -14,24 +13,87 @@ def Get_id(fastq_file):
     file_paths = [os.path.join(fastq_file, file_name) for file_name in files_list]
     id_files = [f'{file_name.split("_")[3]}_Coverage' for file_name in files_list]
     # return a tuple with the lists of file paths and id_file values
-    # print(file_paths, id_files)
     return file_paths, id_files
 
 def Create_ref(Taxa_list_ref):
     Taxa_list_ref = pd.read_csv(Taxa_list_ref, header= None, delimiter='\t')
     Taxa_list_ref['Species'] = 's__' + Taxa_list_ref.iloc[:,0].str.split().str[:2].str.join("_")
     Taxa_list_ref['Abundance'] = 10
-    Taxa_list_ref = Taxa_list_ref.iloc[:, 1:].set_index('Species')
+    Taxa_list_ref = Taxa_list_ref.iloc[:, 1:].set_index('Species').sort_index()
     return Taxa_list_ref
 
 def Mp4_txt_2_csv():
     script_path = '~/MGX_MTX/Predict_diagnosis/MetaPhlan/Sort_Metaphlane.py'
     data_dir = '~/metaanalysis/mp4.simulation/'
     subprocess.run(f'python3 {script_path} {data_dir}', shell=True)
-    Taxa_ab = pd.read_csv("~/metaanalysis/species_main_sim.csv")
-    Taxa_ab = Taxa_ab[Taxa_ab.iloc[:,0].apply(lambda x: x.startswith('s__'))].set_index('Abundance')
-    print(Taxa_ab)
+    Taxa_sim = pd.read_csv("~/metaanalysis/species_main_sim.csv")
+    Taxa_sim = Taxa_sim[Taxa_sim.iloc[:,0].apply(lambda x: x.startswith('s__'))].set_index('Abundance').sort_index()
+    return Taxa_sim
 
+def cal_dis(Taxa_sim,Taxa_list_ref):
+    combine2ref = pd.concat([Taxa_sim, Taxa_list_ref], axis= 1).dropna() #Because the same species were not found, the deletion was made.
+    combine2ref = combine2ref.rename({'Abundance': 'Ref'}, axis=1)
+    # script_path = '~/MGX_MTX/Deep_sequence/Deep_sequence2Metaphlan.py'
+    # subprocess.run(f'python3 {script_path} {combine2ref}', shell=True)
+    # compute_bray_curtis_dissimilarity(combine2ref,Taxa_stats, ground_truth)
+    return combine2ref
+
+def compute_jaccard_scores(df):
+    # initialize an empty dictionary to hold the similarity scores
+    # df = df.rename({'Abundance':'Ref'}, axis=1)
+    similarity_scores = {}
+    ground_truth = df.columns[-1]
+    # loop over all pairs of columns
+    for col in df.columns:
+        # compute the Jaccard score between the two columns
+        species1 = df.loc[df[col] > 0, :].index
+        species2 = df.loc[df[ground_truth] > 0, :].index
+        intersection = len(set(species1).intersection(set(species2)))
+        union = len(set(species1).union(set(species2)))
+        score = intersection / union
+        # add the score to the similarity_scores dictionary
+        similarity_scores[col] = score
+    # create new columns in the dataframe with the similarity scores
+    Taxa_stats = pd.DataFrame([(col, sum(df[col] > 0 ), similarity_scores[col]) for col in df.columns],
+                              columns=['Col_name', 'Num_of_species', 'Ground_truth_jac']).set_index('Col_name')
+    return Taxa_stats, ground_truth
+
+def compute_bray_curtis_dissimilarity(df,Taxa_stats, ground_truth):
+    '''Computes the Bray-Curtis dissimilarity between all columns in df and a specific column.'''
+    def distance_calculation(u, v):
+        l2 = ((u - v) ** 2).sum() ** 0.5
+        l1 = sum(abs(u - v))
+        den = sum(u + v)
+        distance = l1 / den
+        return distance, l1, l2
+
+    # get the column to compare to
+    u = df[ground_truth]
+    # initialize an empty list to hold the dissimilarity scores
+    dissimilarity_scores = []
+    l1_scores = []
+    l2_scores = []
+    # loop over all columns
+    for col in df.columns:
+        # compute the Bray-Curtis dissimilarity between the two columns
+        v = df[col]
+        distance, l1, l2 = distance_calculation(u, v)
+        # add the distance score to the list of dissimilarity scores
+        dissimilarity_scores.append(distance)
+        l1_scores.append(l1)
+        l2_scores.append(l2)
+    # create a DataFrame with the dissimilarity scores and return it
+    dissimilarity_matrix = pd.DataFrame({'Dissimilarity': dissimilarity_scores, 'l1_score': l1_scores, 'l2_score': l2_scores},
+                                        index=df.columns)
+    df = pd.concat([Taxa_stats, dissimilarity_matrix], axis=1).reset_index()
+
+    def get_sort_value(name):
+        # return float(name.split('.')[1][:-1])
+        return name
+
+    df = df.sort_values(by=df.columns[0], key=lambda x: x.apply(get_sort_value), ascending=True).set_index(df.columns[0]).round(2)
+    print(df)
+    # df.to_csv('Taxa_stats_SAMEA110452924_1.csv')
 
 def main():
 
@@ -42,7 +104,7 @@ def main():
     Taxa_list_ref = sys.argv[2]
 
     file_paths, id_files = Get_id(path_fastq_file_X_cov)
-    Create_ref(Taxa_list_ref)
+    Taxa_list_ref = Create_ref(Taxa_list_ref)
 
     # if not os.path.isdir("mp4.Simulation"):
     #     os.mkdir("mp4.simulation")
@@ -51,7 +113,10 @@ def main():
     #     os.system(f'/data1/software/metaphlan/run-metaphlan.sh {path_file} ~/metaanalysis/mp4.simulation/{metaphlan_file_out}'
     #               f' 40 > ~/metaanalysis/mp4.simulation/{metaphlan_file_out}.stdout')
 
-    Mp4_txt_2_csv()
+    Taxa_sim = Mp4_txt_2_csv()
+    combine2ref = cal_dis(Taxa_sim, Taxa_list_ref)
+    Taxa_stats, ground_truth = compute_jaccard_scores(combine2ref)
+    compute_bray_curtis_dissimilarity(combine2ref,Taxa_stats, ground_truth)
 
 if __name__ == '__main__':
     main()
