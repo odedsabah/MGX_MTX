@@ -115,7 +115,7 @@ def sort_df(df):
     # print the DataFrame
     df.to_csv("~/test_split.csv")
     # print(df)
-    # return df
+    return df
 
 def main():
 
