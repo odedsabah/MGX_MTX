@@ -1,1 +1,6 @@
-XML_Files/
+
+metaanalysis/XML_EBI/XML_Files/
+
+# macOS Specific Ignores
+# https://github.com/github/gitignore/blob/master/Global/macOS.gitignore
+*.DS_Store
