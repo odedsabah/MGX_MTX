@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="SRP095580" alias="PRJNA319574" center_name="BioProject" broker_name="NCBI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>SRP095580</PRIMARY_ID>
+          <SECONDARY_ID>PRJNA319574</SECONDARY_ID>
+          <EXTERNAL_ID label="primary" namespace="BioProject">PRJNA319574</EXTERNAL_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Gut microbial interactions with the inflammatory cytokine production capacity</STUDY_TITLE>
+          <STUDY_TYPE existing_study_type="Other"/>
+          <STUDY_ABSTRACT>As part of the 500 Functional Genomics (500FG) project, stool samples from 471 healthy adults were subjected to metagenomic shotgun sequencing (one time point per individual). Concurrently, blood samples were collected from each individual and the cytokine production was measured in response to bacterial and fungal stimulations. Significant inter-individual variation was observed in the gut microbial profiles as well as the immunological profiles. Subsequent association testing showed that microbiome-host interactions modulate the inflammatory cytokine production capacity in healthy individuals.</STUDY_ABSTRACT>
+          <CENTER_PROJECT_NAME>unidentified</CENTER_PROJECT_NAME>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1876259-SRS1876729</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2441670-SRX2442140,SRX2442592-SRX2442679,SRX2442682,SRX2442691,SRX2442702,SRX2442722,SRX2442737,SRX2442746,SRX2442754,SRX2442769,SRX2442779,SRX2442788,SRX2442798,SRX2442807,SRX2442814,SRX2442821,SRX2442839,SRX2442851,SRX2442863,SRX2442867-SRX2443125,SRX2443127-SRX2443166</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5127392-SRR5127862,SRR5128373-SRR5128400,SRR5128402-SRR5128478,SRR5128484,SRR5128499,SRR5128510,SRR5128525,SRR5128539,SRR5128555,SRR5128567,SRR5128580,SRR5128593,SRR5128619,SRR5128631,SRR5128642,SRR5128653,SRR5128661-SRR5128709,SRR5128711-SRR5128766,SRR5128768-SRR5128948</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>SRA508822</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP095580&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP095580&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>7127521300</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>1412448286726</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-12-29</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2016-12-29</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

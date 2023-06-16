@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="SRP279419" alias="PRJNA650280" center_name="BioProject" broker_name="NCBI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>SRP279419</PRIMARY_ID>
+          <SECONDARY_ID>PRJNA650280</SECONDARY_ID>
+          <EXTERNAL_ID label="primary" namespace="BioProject">PRJNA650280</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="BioProject">PRJNA650280</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Duodenal Metatranscriptomics to Define Human and Microbial Functional Alterations Associated with Severe Obesity: A Pilot Study</STUDY_TITLE>
+          <STUDY_TYPE existing_study_type="Other"/>
+          <STUDY_ABSTRACT>Obesity is a multifactorial disorder, and the gut microbiome has been suggested to contribute to its onset. In order to better clarify the role of the microbiome in obesity, we evaluated the metatranscriptome in duodenal biopsies from a cohort of 23 adult severely obese and lean control subjects using next generation sequencing. Our aim was to provide a general picture of the duodenal metatranscriptome associated with severe obesity. We found altered expressions of human and microbial genes in the obese compared to lean subjects, with most of the gene alterations being present in the carbohydrate, protein, and lipid metabolic pathways. Defects were also present in several human genes involved in epithelial intestinal cells differentiation and function, as well as in the immunity/inflammation pathways. Moreover, the microbial taxa abundance inferred by our transcriptomic data differed in part from the data that we previously evaluated by 16S rRNA in 13/23 individuals of our cohort, particularly concerning the Firmicutes and Proteobacteria phyla abundances. In conclusion, our pilot study provides the first taxonomic and functional characterization of duodenal microbiota in severely obese subjects and lean controls. Our findings suggest that duodenal microbiome and human genes both play a role in deregulating metabolic pathways, likely affecting energy metabolism and thus contributing to the obese phenotype.</STUDY_ABSTRACT>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS7290804-SRS7290826</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX9040411-SRX9040433</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR12551194-SRR12551216</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>SRA1109301</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP279419&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP279419&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>1464313673</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>292462303623</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2020-11-21</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2020-11-23</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

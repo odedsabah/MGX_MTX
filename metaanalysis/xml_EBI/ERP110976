@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="ERP110976" alias="ena-STUDY-EMBL-21-09-2018-15:13:51:639-36" center_name="European Molecular Biology Laboratory">
+     <IDENTIFIERS>
+          <PRIMARY_ID>ERP110976</PRIMARY_ID>
+          <SECONDARY_ID>PRJEB28730</SECONDARY_ID>
+          <SUBMITTER_ID namespace="European Molecular Biology Laboratory">ena-STUDY-EMBL-21-09-2018-15:13:51:639-36</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Metagenomic stool samples in time series</STUDY_TITLE>
+          <STUDY_ABSTRACT>OBJECTIVE:
+The composition of the healthy human adult gut microbiome is relatively stable over prolonged periods, and representatives of the most highly abundant and prevalent species have been cultured and described. However, microbial abundances can change on perturbations, such as antibiotics intake, enabling the identification and characterisation of otherwise low abundant species.
+
+DESIGN:
+Analysing gut microbial time-series data, we used shotgun metagenomics to create strain level taxonomic and functional profiles. Community dynamics were modelled postintervention with a focus on conditionally rare taxa and previously unknown bacteria.
+
+RESULTS:
+In response to a commonly prescribed cephalosporin (ceftriaxone), we observe a strong compositional shift in one subject, in which a previously unknown species, U Borkfalki ceftriaxensis, was identified, blooming to 92% relative abundance. The genome assembly reveals that this species (1) belongs to a so far undescribed order of Firmicutes, (2) is ubiquitously present at low abundances in at least one third of adults, (3) is opportunistically growing, being ecologically similar to typical probiotic species and (4) is stably associated to healthy hosts as determined by single nucleotide variation analysis. It was the first coloniser after the antibiotic intervention that led to a long-lasting microbial community shift and likely permanent loss of nine commensals.
+
+CONCLUSION:
+The bloom of U B. ceftriaxensis and a subsequent one of Parabacteroides distasonis demonstrate the existence of monodominance community states in the gut. Our study points to an undiscovered wealth of low abundant but common taxa in the human gut and calls for more highly resolved longitudinal studies, in particular on ecosystem perturbations.</STUDY_ABSTRACT>
+          <STUDY_DESCRIPTION>OBJECTIVE:
+The composition of the healthy human adult gut microbiome is relatively stable over prolonged periods, and representatives of the most highly abundant and prevalent species have been cultured and described. However, microbial abundances can change on perturbations, such as antibiotics intake, enabling the identification and characterisation of otherwise low abundant species.
+
+DESIGN:
+Analysing gut microbial time-series data, we used shotgun metagenomics to create strain level taxonomic and functional profiles. Community dynamics were modelled postintervention with a focus on conditionally rare taxa and previously unknown bacteria.
+
+RESULTS:
+In response to a commonly prescribed cephalosporin (ceftriaxone), we observe a strong compositional shift in one subject, in which a previously unknown species, U Borkfalki ceftriaxensis, was identified, blooming to 92% relative abundance. The genome assembly reveals that this species (1) belongs to a so far undescribed order of Firmicutes, (2) is ubiquitously present at low abundances in at least one third of adults, (3) is opportunistically growing, being ecologically similar to typical probiotic species and (4) is stably associated to healthy hosts as determined by single nucleotide variation analysis. It was the first coloniser after the antibiotic intervention that led to a long-lasting microbial community shift and likely permanent loss of nine commensals.
+
+CONCLUSION:
+The bloom of U B. ceftriaxensis and a subsequent one of Parabacteroides distasonis demonstrate the existence of monodominance community states in the gut. Our study points to an undiscovered wealth of low abundant but common taxa in the human gut and calls for more highly resolved longitudinal studies, in particular on ecosystem perturbations.</STUDY_DESCRIPTION>
+          <STUDY_TYPE existing_study_type="Other"/>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>30658995</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS2906140-ERS2906156</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX2909968-ERX2909996</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR2906808-ERR2906836</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA1609671</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP110976&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP110976&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>514856084</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>141393575344</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2019-03-14</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-03-14</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

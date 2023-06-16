@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="SRP012035" alias="2180 metasequencing" center_name="shanghaijiaotong University" broker_name="NCBI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>SRP012035</PRIMARY_ID>
+          <SUBMITTER_ID namespace="shanghaijiaotong University">2180 metasequencing</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>gut microbiota from an obese human</STUDY_TITLE>
+          <STUDY_TYPE existing_study_type="Metagenomics"/>
+          <STUDY_ABSTRACT>Metagenomic sequencing of the fecal samples at 0, 9 and 23 weeks confirmed one genus as the most significantly reduced population and found genes involved in LPS synthetic pathway markedly diminished during weight loss .</STUDY_ABSTRACT>
+          <CENTER_PROJECT_NAME>2180 metasequencing</CENTER_PROJECT_NAME>
+          <STUDY_DESCRIPTION>one morbidly obese volunteer (weight 174.8 kg, BMI 58.8 kg/m2)</STUDY_DESCRIPTION>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS307175,SRS307177,SRS308056</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX135707-SRX135709</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR453563-SRR453565</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>SRA051394</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP012035&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP012035&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>87576405</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>13136460750</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-04-22</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2015-06-22</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

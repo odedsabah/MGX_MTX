@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="ERP114775" alias="ena-STUDY-UNIVERSITY OF BRITISH COLUMBIA-11-04-2019-22:07:02:239-14" center_name="UNIVERSITY OF BRITISH COLUMBIA">
+     <IDENTIFIERS>
+          <PRIMARY_ID>ERP114775</PRIMARY_ID>
+          <SECONDARY_ID>PRJEB32135</SECONDARY_ID>
+          <SUBMITTER_ID namespace="UNIVERSITY OF BRITISH COLUMBIA">ena-STUDY-UNIVERSITY OF BRITISH COLUMBIA-11-04-2019-22:07:02:239-14</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>The Canadian Healthy Infant Longitudinal Development (CHILD) study is a multicenter longitudinal, prospective, general population birth cohort study. This study used a nested case-controlled design to analyze the functional potential of the fecal microbiome in infants enrolled in the CHILD Study. We selected 3-month and 1-year stool samples from an atopy enriched subset of children from one enrollment center (Vancouver). DNA was extracted from stool samples and submitted for shotgun metagenome sequencing.</STUDY_TITLE>
+          <STUDY_ABSTRACT>Allergic disease is the most frequent chronic health issue in children and has been linked to early life gut microbiome dysbiosis. Many lines of evidence suggest that microbially derived short-chain fatty acids, and particularly butyrate, can promote immune tolerance. We used shotgun metagenomic analysis to determine whether dysbiosis in butyrate fermentation could be identified in human infants, prior to their developing allergic disease. We found that the microbiome of infants that went on to develop allergic sensitization later in childhood lacked genes encoding key enzymes for carbohydrate breakdown and butyrate production. Our findings support the importance of microbial carbohydrate metabolism during early infancy in protecting against development of allergies and suggest metabolite therapy as a potential prevention strategy.</STUDY_ABSTRACT>
+          <STUDY_DESCRIPTION>Allergic disease is the most frequent chronic health issue in children and has been linked to early life gut microbiome dysbiosis. Many lines of evidence suggest that microbially derived short-chain fatty acids, and particularly butyrate, can promote immune tolerance. We used shotgun metagenomic analysis to determine whether dysbiosis in butyrate fermentation could be identified in human infants, prior to their developing allergic disease. We found that the microbiome of infants that went on to develop allergic sensitization later in childhood lacked genes encoding key enzymes for carbohydrate breakdown and butyrate production. Our findings support the importance of microbial carbohydrate metabolism during early infancy in protecting against development of allergies and suggest metabolite therapy as a potential prevention strategy.</STUDY_DESCRIPTION>
+          <CENTER_PROJECT_NAME>The Canadian Healthy Infant Longitudinal Development (CHILD) study is a multicenter longitudinal, prospective, general population birth cohort study. This study used a nested case-controlled design to analyze the functional potential of the fecal microbiome in infants enrolled in the CHILD Study. We selected 3-month and 1-year stool samples from an atopy enriched subset of children from one enrollment center (Vancouver). DNA was extracted from stool samples and submitted for shotgun metagenome sequencing.</CENTER_PROJECT_NAME>
+          <STUDY_TYPE existing_study_type="Other"/>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS3366326-ERS3366481</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX3304067-ERX3304222</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR3277216-ERR3277371</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA1827096</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP114775&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP114775&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>816221496</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>207872812407</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2019-06-11</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-04-11</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

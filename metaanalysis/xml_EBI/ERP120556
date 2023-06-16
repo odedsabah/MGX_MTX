@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="ERP120556" alias="ena-STUDY-INRA-META-12-03-2020-11:25:36:008-34" center_name="Institut National pour la Recherche Agronomique (FRANCE)">
+     <IDENTIFIERS>
+          <PRIMARY_ID>ERP120556</PRIMARY_ID>
+          <SECONDARY_ID>PRJEB37249</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Institut National pour la Recherche Agronomique (FRANCE)">ena-STUDY-INRA-META-12-03-2020-11:25:36:008-34</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Statin therapy is associated with lower prevalence of gut microbiota dysbiosis</STUDY_TITLE>
+          <STUDY_ABSTRACT>Microbiome community typing analyses have recently identified the Bacteroides2 (Bact2) enterotype, an intestinal microbiota configuration that is associated with systemic inflammation and has a high prevalence in loose stools in humans. Bact2 is characterized by a high proportion of Bacteroides, a low proportion of Faecalibacterium and low microbial cell densities, and its prevalence varies from 13% in a general population cohort to as high as 78% in patients with inflammatory bowel disease. Reported changes in stool consistency and inflammation status during the progression towards obesity and metabolic comorbidities led us to propose that these developments might similarly correlate with an increased prevalence of the potentially dysbiotic Bact2 enterotype. Here, by exploring obesity-associated microbiota alterations in the quantitative faecal metagenomes of the cross-sectional MetaCardis Body Mass Index Spectrum cohort (n = 888), we identify statin therapy as a key covariate of microbiome diversification. By focusing on a subcohort of participants that are not medicated with statins, we find that the prevalence of Bact2 correlates with body mass index, increasing from 3.90% in lean or overweight participants to 17.73% in obese participants. Systemic inflammation levels in Bact2-enterotyped individuals are higher than predicted on the basis of their obesity status, indicative of Bact2 as a dysbiotic microbiome constellation. We also observe that obesity-associated microbiota dysbiosis is negatively associated with statin treatment, resulting in a lower Bact2 prevalence of 5.88% in statin-medicated obese participants. This finding is validated in both the accompanying MetaCardis cardiovascular disease dataset (n = 282) and the independent Flemish Gut Flora Project population cohort (n = 2,345). The potential benefits of statins in this context will require further evaluation in a prospective clinical trial to ascertain whether the effect is reproducible in a randomized population and before considering their application as microbiota-modulating therapeutics.</STUDY_ABSTRACT>
+          <STUDY_DESCRIPTION>Microbiome community typing analyses have recently identified the Bacteroides2 (Bact2) enterotype, an intestinal microbiota configuration that is associated with systemic inflammation and has a high prevalence in loose stools in humans. Bact2 is characterized by a high proportion of Bacteroides, a low proportion of Faecalibacterium and low microbial cell densities, and its prevalence varies from 13% in a general population cohort to as high as 78% in patients with inflammatory bowel disease. Reported changes in stool consistency and inflammation status during the progression towards obesity and metabolic comorbidities led us to propose that these developments might similarly correlate with an increased prevalence of the potentially dysbiotic Bact2 enterotype. Here, by exploring obesity-associated microbiota alterations in the quantitative faecal metagenomes of the cross-sectional MetaCardis Body Mass Index Spectrum cohort (n = 888), we identify statin therapy as a key covariate of microbiome diversification. By focusing on a subcohort of participants that are not medicated with statins, we find that the prevalence of Bact2 correlates with body mass index, increasing from 3.90% in lean or overweight participants to 17.73% in obese participants. Systemic inflammation levels in Bact2-enterotyped individuals are higher than predicted on the basis of their obesity status, indicative of Bact2 as a dysbiotic microbiome constellation. We also observe that obesity-associated microbiota dysbiosis is negatively associated with statin treatment, resulting in a lower Bact2 prevalence of 5.88% in statin-medicated obese participants. This finding is validated in both the accompanying MetaCardis cardiovascular disease dataset (n = 282) and the independent Flemish Gut Flora Project population cohort (n = 2,345). The potential benefits of statins in this context will require further evaluation in a prospective clinical trial to ascertain whether the effect is reproducible in a randomized population and before considering their application as microbiota-modulating therapeutics.</STUDY_DESCRIPTION>
+          <CENTER_PROJECT_NAME>metacardis-statin</CENTER_PROJECT_NAME>
+          <STUDY_TYPE existing_study_type="Other"/>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS4538508-ERS4539395</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX4082249-ERX4087362</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR4086424-ERR4091537</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA2408683</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP120556&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP120556&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>19567645518</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>2759823993107</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2020-05-01</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2020-05-05</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

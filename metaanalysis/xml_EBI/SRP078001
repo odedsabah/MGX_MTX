@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="SRP078001" alias="PRJNA322188" center_name="BioProject" broker_name="NCBI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>SRP078001</PRIMARY_ID>
+          <SECONDARY_ID>PRJNA322188</SECONDARY_ID>
+          <EXTERNAL_ID label="primary" namespace="BioProject">PRJNA322188</EXTERNAL_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Maturation of the Infant Microbiome Community Structure and Function Across Multiple Body Sites</STUDY_TITLE>
+          <STUDY_TYPE existing_study_type="Other"/>
+          <STUDY_ABSTRACT>Human microbial communities are characterized by their metagenomic and metabolic diversity, which varies by distinct body sites and influences human physiology. However, it is not yet known when in early development our microbiota community structure and function is initially established and diversifies. We thus sought to assess the taxonomic composition and potential metabolic function of the neonatal and early infant microbiota, and assess the impact of mode of delivery and its potential confounders or modifiers. A cohort of pregnant women (n=81) were prospectively enrolled for longitudinal sampling through 6 weeks post-delivery, and a second matched cross-sectional cohort (n=81) was additionally recruited for sampling once at delivery. Samples were collected for each maternal-infant dyad across multiple body sites, including stool, oral gingiva, nares, skin and vagina. 16S rRNA gene sequencing analysis and whole genome shotgun sequencing was performed to interrogate the composition and function of the neonatal and maternal microbiota. We found that the neonatal microbiota and its associated functional pathways were relatively homogenous across all body sites at delivery, with the notable exception of neonatal meconium. However, by 6 weeks, the infant microbiota structure and function had significantly expanded and diversified, with body site serving as the primary determinant of the bacterial community composition and its functional capacity. Although minor variations in the neonatal (immediately at birth) microbiota community structure were associated with Cesarean delivery in some body sites (oral, nares, and skin; p&lt;0.001, R2 = 0.038), this was not true in neonatal stool (meconium) and there was no observable difference in community function regardless of delivery mode. By 6 weeks of age, the infant microbiota structure and function had expanded and diversified with demonstrable body site specificity (p&lt;0.001, R2 = 0.189), and no discernable differences in neither community structure nor function by Cesarean delivery were identifiable (p=0.057, R2 = 0.007). We conclude that within the first 6 weeks of life, the infant microbiota undergoes significant reorganization that is primarily driven by body site and not by mode of delivery.</STUDY_ABSTRACT>
+          <CENTER_PROJECT_NAME>Human</CENTER_PROJECT_NAME>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1542309-SRS1542432,SRS1542434-SRS1542481,SRS1542488,SRS1542491,SRS1542496-SRS1542568,SRS1542577-SRS1542722,SRS1542730-SRS1542834,SRS1542849-SRS1542858,SRS1542864-SRS1543181,SRS1543200-SRS1543478,SRS1543481-SRS1543547,SRS1543549-SRS1543925,SRS1618347,SRS1618349,SRS1618351-SRS1618353,SRS1618355,SRS1618357,SRS1618360,SRS1618362,SRS1618364,SRS1618367-SRS1618368,SRS1618370-SRS1618371,SRS1618373,SRS1618375,SRS1618377,SRS1618379,SRS1618382,SRS1618384,SRS1618386-SRS1618387,SRS1618390,SRS1618392-SRS1618393,SRS1618395,SRS1618397,SRS1618399,SRS1618401,SRS1618404,SRS1618406,SRS1618408,SRS1618410,SRS1618413-SRS1618415,SRS1618418-SRS1618419,SRS1618421,SRS1618423,SRS1618426,SRS1618428,SRS1618430,SRS1618432,SRS1618434,SRS1618437-SRS1618438,SRS1618440-SRS1618441,SRS1618443-SRS1618445,SRS1618449,SRS1618452,SRS1618454,SRS1618457-SRS1618458,SRS1618460-SRS1618461,SRS1618463,SRS1618465,SRS1618467,SRS1618469,SRS1618472,SRS1618474,SRS1618476,SRS1618478,SRS1618480,SRS1618482-SRS1618483,SRS1618485,SRS1618487,SRS1618489,SRS1618491,SRS1618494,SRS1618497-SRS1618498,SRS1618500,SRS1618502,SRS1618504-SRS1618505,SRS1618507,SRS1618509,SRS1618511,SRS1618513,SRS1618516,SRS1618518,SRS1618520,SRS1618522,SRS1618524,SRS2168655,SRS2168657-SRS2168664,SRS2182908-SRS2183095</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1899515-SRX1899638,SRX1899640-SRX1899687,SRX1899694,SRX1899697,SRX1899702-SRX1899774,SRX1899783-SRX1899928,SRX1899936-SRX1900040,SRX1900055-SRX1900064,SRX1900070-SRX1900387,SRX1900406-SRX1900684,SRX1900687-SRX1900753,SRX1900755-SRX1901131,SRX2023915,SRX2023917-SRX2023918,SRX2023920,SRX2023922,SRX2023924,SRX2023926,SRX2023929,SRX2023931,SRX2023933,SRX2023935,SRX2023937,SRX2023939-SRX2023940,SRX2023942,SRX2023944,SRX2023946,SRX2023948,SRX2023951,SRX2023953,SRX2023955,SRX2023957,SRX2023959,SRX2023961-SRX2023962,SRX2023964,SRX2023966,SRX2023968,SRX2023970,SRX2023973,SRX2023975,SRX2023977,SRX2023979,SRX2023981,SRX2023983-SRX2023984,SRX2023986,SRX2023988,SRX2023990,SRX2023992,SRX2023995,SRX2023997,SRX2023999,SRX2024001,SRX2024003,SRX2024005,SRX2024007-SRX2024008,SRX2024010,SRX2024012,SRX2024014,SRX2024016,SRX2024019,SRX2024021,SRX2024023,SRX2024025,SRX2024027,SRX2024029-SRX2024030,SRX2024032,SRX2024034,SRX2024036,SRX2024038,SRX2024041,SRX2024043,SRX2024045,SRX2024047,SRX2024049,SRX2024051-SRX2024052,SRX2024054,SRX2024056,SRX2024058,SRX2024060,SRX2024063,SRX2024065,SRX2024067,SRX2024069,SRX2024071,SRX2024073-SRX2024074,SRX2024076,SRX2024078,SRX2024080,SRX2024082,SRX2024085,SRX2024087,SRX2024089,SRX2024091,SRX2024093,SRX2786671-SRX2786679,SRX2802634-SRX2802821</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR3745615-SRR3745700,SRR3745702-SRR3745710,SRR3745712-SRR3745740,SRR3745749-SRR3745754,SRR3745756-SRR3745794,SRR3745796-SRR3745798,SRR3745805-SRR3745806,SRR3745813-SRR3745827,SRR3745829-SRR3745852,SRR3745861-SRR3745867,SRR3745869-SRR3745961,SRR3745963-SRR3746007,SRR3746009-SRR3746017,SRR3746019-SRR3746033,SRR3746035-SRR3746045,SRR3746055-SRR3746159,SRR3746174-SRR3746183,SRR3746194-SRR3746511,SRR3746530-SRR3746808,SRR3746811-SRR3746877,SRR3746886-SRR3746981,SRR3746983-SRR3747263,SRR5512720-SRR5512728,SRR5533453-SRR5533640,SRR8942343-SRR8942432</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>SRA438295</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP078001&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP078001&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>3548692789</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>487497468160</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-07-12</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2016-07-12</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

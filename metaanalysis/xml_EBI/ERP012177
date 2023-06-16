@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="ERP012177" alias="ena-STUDY-BGI-16-09-2015-16:59:58:488-236" center_name="Beijing Genome Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>ERP012177</PRIMARY_ID>
+          <SECONDARY_ID>PRJEB10878</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Beijing Genome Institute">ena-STUDY-BGI-16-09-2015-16:59:58:488-236</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Metagenomic analysis of fecal microbiome as a tool towards targeted non-invasive biomarkers for colorectal cancer</STUDY_TITLE>
+          <STUDY_ABSTRACT>We performed a metagenome-wide association study on fecal samples from 74 CRC patients and 54 controls from China and validated the results in 16 patients and 24 controls from Denmark. We further validated the biomarkers in two published cohorts from France and Austria. Finally, we employed targeted quantitative PCR (qPCR) assays to evaluate the diagnostic potential of selected biomarkers in an independent Chinese cohort of 47 patients and 109 controls.</STUDY_ABSTRACT>
+          <STUDY_DESCRIPTION>We performed a metagenome-wide association study on fecal samples from 74 CRC patients and 54 controls from China and validated the results in 16 patients and 24 controls from Denmark. We further validated the biomarkers in two published cohorts from France and Austria. Finally, we employed targeted quantitative PCR (qPCR) assays to evaluate the diagnostic potential of selected biomarkers in an independent Chinese cohort of 47 patients and 109 controls.</STUDY_DESCRIPTION>
+          <CENTER_PROJECT_NAME>Metagenomic analysis of fecal microbiome as a tool towards targeted non-invasive biomarkers for colorectal cancer</CENTER_PROJECT_NAME>
+          <STUDY_TYPE existing_study_type="Other"/>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS848618-ERS848745</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX1097252-ERX1097379</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR1018185-ERR1018312</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA485830</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP012177&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP012177&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>3604330583</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>691585558055</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-10-01</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2015-09-16</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="SRP096283" alias="PRJNA354235" center_name="BioProject" broker_name="NCBI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>SRP096283</PRIMARY_ID>
+          <SECONDARY_ID>PRJNA354235</SECONDARY_ID>
+          <EXTERNAL_ID label="primary" namespace="BioProject">PRJNA354235</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="BioProject">PRJNA354235</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Human gut metagenome and metatranscriptome raw sequence reads.</STUDY_TITLE>
+          <STUDY_TYPE existing_study_type="Other"/>
+          <STUDY_ABSTRACT>We conducted metagenomic and metatranscriptomic sequencing of the human gut microbiome among 308 participants enrolled in a subcohort of men nested within the Health Professionals Follow-up Study. Using a previously validated self-sampling stool collection method (PMID24843156), participants provided up to four stool samples – one set of samples collected approximately 48 hours apart followed by a second set approximately 6 months later. DNA extracted from 929 stool samples and RNA extracted from 378 stool samples was reverse-transcribed to cDNA and sequenced using the Illumina HiSeq platform. Raw data were filtered to remove low quality and human reads. Metagenomic and metatranscriptomic read data were then profiled for functional and taxonomic composition using the HUMAnN2 and MetaPhlAn2 platforms respectively.</STUDY_ABSTRACT>
+          <CENTER_PROJECT_NAME>256318</CENTER_PROJECT_NAME>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>pubmed</DB>
+                    <ID>34083435</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1905515-SRS1906002,SRS1912703-SRS1913111,SRS1913877-SRS1914286</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2474043-SRX2474530,SRX2481088-SRX2481142,SRX2481144-SRX2481497,SRX2482569-SRX2482978,SRX3178593-SRX3179090,SRX3186368-SRX3186745,SRX3201346-SRX3201636,SRX3542608-SRX3542731</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR5155745-SRR5156232,SRR5164005-SRR5164347,SRR5164349-SRR5164414,SRR5165610-SRR5166019,SRR6028163-SRR6028660,SRR6038183-SRR6038560,SRR6054416-SRR6054706,SRR6451714-SRR6451837</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>SRA524775</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP096283&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP096283&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>23529961499</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>3568734085343</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-01-15</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2021-06-15</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

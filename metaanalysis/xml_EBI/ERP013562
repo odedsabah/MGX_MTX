@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="ERP013562" alias="ena-STUDY-BGI-14-12-2015-06:33:15:949-132" center_name="Beijing Genome Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>ERP013562</PRIMARY_ID>
+          <SECONDARY_ID>PRJEB12123</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Beijing Genome Institute">ena-STUDY-BGI-14-12-2015-06:33:15:949-132</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Gut microbial dysbiosis in young adults with obesity</STUDY_TITLE>
+          <STUDY_ABSTRACT>Obesity has become a global epidemic as a high risk factor for type 2 diabetes, cardiovascular diseases and cancer. Besides human genetics, our gut microbiome is another contributor to human obesity. Here we perform metagenome-wide association studies (MGWAS) on fecal samples from a case-control cohort including 95 Chinese young adults with obesity and 105 normal-weight controls, and 23 obese patients after weight-loss treatment. We discover and validate microbial species deregulated in obesity, and show the changes of gut microbial composition after weight-loss treatment.</STUDY_ABSTRACT>
+          <STUDY_DESCRIPTION>Obesity has become a global epidemic as a high risk factor for type 2 diabetes, cardiovascular diseases and cancer. Besides human genetics, our gut microbiome is another contributor to human obesity. Here we perform metagenome-wide association studies (MGWAS) on fecal samples from a case-control cohort including 95 Chinese young adults with obesity and 105 normal-weight controls, and 23 obese patients after weight-loss treatment. We discover and validate microbial species deregulated in obesity, and show the changes of gut microbial composition after weight-loss treatment.</STUDY_DESCRIPTION>
+          <CENTER_PROJECT_NAME>Gut microbial dysbiosis in young adults with obesity</CENTER_PROJECT_NAME>
+          <STUDY_TYPE existing_study_type="Other"/>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS1015607-ERS1015863</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX1263907-ERX1264163</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR1190532-ERR1190788</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA542779</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP013562&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP013562&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>6796169358</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>1335821624416</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-05-31</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2017-05-29</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

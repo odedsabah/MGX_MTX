@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="SRP003679" alias="Mycobacterium_tuberculosis_PGG1_multi_isolate_project_70_or_more_MTB_strains" center_name="BI" broker_name="NCBI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>SRP003679</PRIMARY_ID>
+          <SECONDARY_ID>PRJNA49647</SECONDARY_ID>
+          <EXTERNAL_ID label="primary" namespace="BioProject">PRJNA49647</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="BI">Mycobacterium_tuberculosis_PGG1_multi_isolate_project_70_or_more_MTB_strains</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Mycobacterium tuberculosis PGG1 multi-isolate project</STUDY_TITLE>
+          <STUDY_TYPE existing_study_type="Other"/>
+          <STUDY_ABSTRACT>Ultra-Deep Resequencing of Mycobacterium tuberculosis Principal Genetic group 1 strains responsible for large case clusters and high rates of drug resistance.</STUDY_ABSTRACT>
+          <CENTER_PROJECT_NAME>Mycobacterium tuberculosis strain:PGG1 multi-isolate</CENTER_PROJECT_NAME>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS024887,SRS066147,SRS116401-SRS116448,SRS117943-SRS117960,SRS174143-SRS174172</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX000696,SRX000773,SRX000943,SRX001005,SRX001009,SRX001012-SRX001013,SRX001016,SRX001021,SRX001025,SRX001027,SRX001614,SRX001638,SRX001723,SRX002276-SRX002277,SRX002279,SRX002283-SRX002284,SRX002308-SRX002309,SRX002312-SRX002313,SRX002315-SRX002317,SRX002319-SRX002321,SRX002324,SRX002380,SRX027574-SRX027578,SRX029131-SRX029134,SRX042068,SRX042070,SRX042073,SRX042083,SRX042087-SRX042089,SRX042095-SRX042096,SRX042098,SRX042101,SRX042104,SRX042109,SRX042112-SRX042116,SRX042118-SRX042121,SRX042123,SRX042129-SRX042131,SRX042133-SRX042136,SRX042146-SRX042152,SRX042154-SRX042160</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR067466-SRR067565,SRR069914-SRR070035,SRR124451-SRR124453,SRR125284-SRR125313</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>SRA024404</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP003679&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP003679&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>444516964</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>62248037216</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2010-10-14</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2017-09-25</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

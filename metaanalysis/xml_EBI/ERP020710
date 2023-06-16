@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="ERP020710" alias="ena-STUDY-Guangzhou Women and Children Medical Center-03-01-2017-04:03:21:191-759" center_name="Guangzhou Women and Children Medical Center">
+     <IDENTIFIERS>
+          <PRIMARY_ID>ERP020710</PRIMARY_ID>
+          <SECONDARY_ID>PRJEB18755</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Guangzhou Women and Children Medical Center">ena-STUDY-Guangzhou Women and Children Medical Center-03-01-2017-04:03:21:191-759</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Connections between the gut microbiome and gestational diabetes mellitus</STUDY_TITLE>
+          <STUDY_ABSTRACT>The gut microbiome could modulate metabolic health and affect insulin resistance, which may play a role in the observed increase in gestational diabetes mellitus (GDM). The aim of this study was to reveal any relationships between gut microbiome composition and GDM in pregnant women at 24-28 weeks gestation. Fecal samples were collected from 124 pregnant women (43 GDM patients and 81 healthy control subjects) during 24-28 weeks gestation, as part of the Born in Guangzhou Cohort Study, China. The gut microbiota profiles were assessed by metagenomic shotgun sequencing to analyze microbial diversity at all taxonomic levels. Maternal GDM status was assessed by 2-hour 75g OGTT between the 24th and 28th week of gestation.</STUDY_ABSTRACT>
+          <STUDY_DESCRIPTION>The gut microbiome could modulate metabolic health and affect insulin resistance, which may play a role in the observed increase in gestational diabetes mellitus (GDM). The aim of this study was to reveal any relationships between gut microbiome composition and GDM in pregnant women at 24-28 weeks gestation. Fecal samples were collected from 124 pregnant women (43 GDM patients and 81 healthy control subjects) during 24-28 weeks gestation, as part of the Born in Guangzhou Cohort Study, China. The gut microbiota profiles were assessed by metagenomic shotgun sequencing to analyze microbial diversity at all taxonomic levels. Maternal GDM status was assessed by 2-hour 75g OGTT between the 24th and 28th week of gestation.</STUDY_DESCRIPTION>
+          <CENTER_PROJECT_NAME>GDM gut microbiota</CENTER_PROJECT_NAME>
+          <STUDY_TYPE existing_study_type="Other"/>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS1487525-ERS1487648</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX2073227-ERX2073350</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR2013555-ERR2013678</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA782532</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP020710&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP020710&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>1839022608</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>359120416009</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-06-21</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2017-01-03</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

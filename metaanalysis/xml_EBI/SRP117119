@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="SRP117119" alias="PRJNA400628" center_name="BioProject" broker_name="NCBI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>SRP117119</PRIMARY_ID>
+          <SECONDARY_ID>PRJNA400628</SECONDARY_ID>
+          <EXTERNAL_ID label="primary" namespace="BioProject">PRJNA400628</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="BioProject">PRJNA400628</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Escherichia coli Genome sequencing and assembly</STUDY_TITLE>
+          <STUDY_TYPE existing_study_type="Other"/>
+          <STUDY_ABSTRACT>Metagenomic samples extracted from Stool of UI cases/control patients and 16S sequenced</STUDY_ABSTRACT>
+          <CENTER_PROJECT_NAME>Escherichia coli</CENTER_PROJECT_NAME>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS2499913-SRS2499979,SRS2499989-SRS2500169,SRS2500647-SRS2500671,SRS2500869-SRS2500880,SRS2508916-SRS2508919,SRS2508939-SRS2508941,SRS2508949-SRS2508950,SRS5213978-SRS5213989</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX3169903-SRX3169969,SRX3169979-SRX3170159,SRX3170669-SRX3170699,SRX3170701,SRX3170900-SRX3170911,SRX3179986,SRX3180009-SRX3180037,SRX3180039-SRX3180047,SRX3180067-SRX3180078,SRX3180080-SRX3180083,SRX3180091-SRX3180121,SRX3180147-SRX3180154,SRX6652477-SRX6652488</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR6018388-SRR6018454,SRR6018535-SRR6018715,SRR6019494-SRR6019512,SRR6019515-SRR6019527,SRR6019729-SRR6019740,SRR6029587,SRR6029610-SRR6029647,SRR6029667,SRR6029669-SRR6029679,SRR6029681-SRR6029684,SRR6029696-SRR6029726,SRR6029752-SRR6029759,SRR9900636-SRR9900647</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>SRA606301</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP117119&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP117119&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>1313161533</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>327373747014</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-09-25</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2020-05-05</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

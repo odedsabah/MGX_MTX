@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="SRP162433" alias="PRJNA492714" center_name="BioProject" broker_name="NCBI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>SRP162433</PRIMARY_ID>
+          <SECONDARY_ID>PRJNA492714</SECONDARY_ID>
+          <EXTERNAL_ID label="primary" namespace="BioProject">PRJNA492714</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="BioProject">PRJNA492714</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Impact of High altitude environment of Human oral and gut microbiota</STUDY_TITLE>
+          <STUDY_TYPE existing_study_type="Other"/>
+          <STUDY_ABSTRACT>The human oral &amp;amp; gut microbiota continues to change phenotype by many factors (e.g. environment, host's diet, stress etc.), throughout life with a major impact on human physiology, psychology, metabolism and immune system. Amongst one such is, extreme environmental condition like High Altitude (HA) - very unique, difficult and full of health risk. Visiting population such as mountaineers, bikers, visitors, pilgrims, soldiers and special task forces who reaches High Altitude are at higher risks than at low landers. However, the reason how the extreme environment, stress, oxygen saturation and diet alter the oral &amp;amp; gut microbiota and affect its composition remains unclear. In this study we investigated the influence of High Altitude and stay at different heights, on the health of Indian population by using metagenomic approach to determine the variation in the gut microbiota. Fecal samples were collected from individuals, at four different time points viz. before the start of the ascending, after reaching 13000ft, descending at 11000ft and at the 16000ft –19000ft. Samples were analysed for whole genome sequencing. The oral &amp;amp; gut microbial diversity of members was significantly altered with the abundance of several bacteria, during the days of staying at 13000ft, 11000ft and 16000ft –19000ft. The oral &amp;amp; gut microbiota comprised mainly of the phyla Firmicutes, Proteobacteria, Bacteroidetes Euryachaeota, Actinobacteria and Unclassified at three time points. Further, the differential analysis of microbes across all the phyla and genus at all the four time points. Most of the identified microbial sequences were unclassified microbiota. Evidently, some metabolic pathways like amino acid, lipid and carbohydrate metabolism pathways were also altered.</STUDY_ABSTRACT>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3814598-SRS3814640</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX4732401-SRX4732443</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR7894898-SRR7894940</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>SRA782567</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP162433&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP162433&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>506323777</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>98581128720</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-09-25</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-09-25</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

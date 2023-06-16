@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="SRP192580" alias="PRJNA532888" center_name="BioProject" broker_name="NCBI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>SRP192580</PRIMARY_ID>
+          <SECONDARY_ID>PRJNA532888</SECONDARY_ID>
+          <EXTERNAL_ID label="primary" namespace="BioProject">PRJNA532888</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="BioProject">PRJNA532888</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Pro-inflammatory and autoimmunogenic gut microbiome in systemic lupus erythematosus</STUDY_TITLE>
+          <STUDY_TYPE existing_study_type="Other"/>
+          <STUDY_ABSTRACT>Gut microbiota is closely implicated with the development and function of host immune system1. Systemic lupus erythematosus (SLE), characterized by chronic inflammation and multi-organ damage, has been suggested to associate with gut dysbiosis, but knowledge is limited from small sample size and 16s rRNA-based studies. To shed new light on the role of microbiota in SLE development, we analyzed the fecal metagenome of 117 treatment-naïve SLE patients and 115 sex- and age-matched healthy controls (HC) by deep-sequencing; in addition, 52 of the aforementioned patients have post-treatment fecal metagenome for comparison. We found significant difference in microbial composition and function between SLE and HC, revealing multiple plausible contributing bacterial species and metabolic pathways in SLE. In-depth SNP-based analysis revealed an oral-microbiome origin for two marker species, strengthening the importance of bacterial translocation in disease development. Lastly, we confirmed experimentally that peptides of SLE-enriched species mimicking autoantigens such as Sm can trigger autoimmune T-cell responses, suggesting a potentially causal role of gut microbiota in SLE.</STUDY_ABSTRACT>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS4624488-SRS4624771</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX5684579-SRX5684862</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR8898458-SRR8898741</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>SRA874085</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP192580&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP192580&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>11257212065</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>3371993458800</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2020-04-26</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2020-04-26</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

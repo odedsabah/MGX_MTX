@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="SRP285692" alias="PRJNA666005" center_name="BioProject" broker_name="NCBI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>SRP285692</PRIMARY_ID>
+          <SECONDARY_ID>PRJNA666005</SECONDARY_ID>
+          <EXTERNAL_ID label="primary" namespace="BioProject">PRJNA666005</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="BioProject">PRJNA666005</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Correlative research on atopic dermatitis Metagenomic assembly</STUDY_TITLE>
+          <STUDY_TYPE existing_study_type="Other"/>
+          <STUDY_ABSTRACT>For viral metagenomic analysis, 50 feces samples were collected from 30 patients with atopic dermatitis and 20 health child who were admitted to the Department of Dermatology and Venerology of the Affiliated Hospital of Jiangsu University from Sep 2017 to Aug 2018. The mean age of study participants was 10.5 (8-13) years. The average courses were 3.263.14 month (1 week to 15 months). The 50 feces were randomly pooled into 50 specimen pools, each including 1 feces. The feces pools were individually homogenized with a mortar and pestle, resuspended in 1 mL DPBS, and then frozen and thawed rapidly three times on dry-ice. The supernatants were then collected after centrifugation (10 min, 15,000 g). Supernatants were filtered through a 0.45-mm filter (Millipore) to remove eukaryotic- and bacterial cell-sized particles, and 200 uL of supernatant from each pool was then subjected to a mixture of nuclease enzymes to reduce the concentration of free (non-viral encapsidated) nucleic acids[13,14]. Remaining total nucleic acid was then isolated using QIAamp MinElute Virus Spin Kit according to manufacturer's protocol. Eleven libraries were then constructed using Nextera XT DNA Sample Preparation Kit (Illumina) and sequenced using the MiSeq Illumina platform with 250 bases paired ends with dual barcoding for each pool.</STUDY_ABSTRACT>
+          <CENTER_PROJECT_NAME>Correlative research on atopic dermatitis</CENTER_PROJECT_NAME>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS7443874</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX9209017,SRX9209063,SRX9209080,SRX9209445,SRX9209539,SRX9209546,SRX9210504,SRX9210519,SRX9210699,SRX9247668,SRX9252288,SRX9252338,SRX9260490,SRX9260653,SRX9260853,SRX9260876,SRX9260926,SRX9260985,SRX9284522-SRX9284523,SRX9284525,SRX9290129,SRX9290149-SRX9290151,SRX9290624,SRX9290866,SRX9290869,SRX9291131,SRX9293322-SRX9293330,SRX9295620-SRX9295627,SRX9295929-SRX9295932</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR12736145,SRR12736191,SRR12736208,SRR12736573,SRR12736667,SRR12736674,SRR12737632,SRR12737647,SRR12737827,SRR12778074,SRR12783021,SRR12783071,SRR12791369,SRR12791532,SRR12791732,SRR12791755,SRR12791805,SRR12791864,SRR12816429-SRR12816430,SRR12816432,SRR12822489,SRR12822509-SRR12822511,SRR12822986,SRR12823228,SRR12823231,SRR12823493,SRR12825684-SRR12825692,SRR12827982-SRR12827989,SRR12828291-SRR12828294</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>SRA1135092</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP285692&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP285692&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>48582335</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>24388332170</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2020-09-29</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2020-09-29</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

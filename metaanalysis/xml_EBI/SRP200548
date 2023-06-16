@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="SRP200548" alias="PRJNA544527" center_name="BioProject" broker_name="NCBI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>SRP200548</PRIMARY_ID>
+          <SECONDARY_ID>PRJNA544527</SECONDARY_ID>
+          <EXTERNAL_ID label="primary" namespace="BioProject">PRJNA544527</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="BioProject">PRJNA544527</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>BIO-ML: The Broad Institute-OpenBiome Microbiome Library enables mechanistic studies with isolates, genomes, and longitudinal metagenomics and metabolomic data</STUDY_TITLE>
+          <STUDY_TYPE existing_study_type="Other"/>
+          <STUDY_ABSTRACT>We introduce a comprehensive library of human gut bacteria: a library of 7,758 bacterial isolates, characterized by 16S sanger sequences, which were obtained from healthy FMT donors recruited in the Boston area. This library covers most of the phylogenetic diversity found in the human gut and contains extensive strain diversity. Isolates can be requested at this address: XXX.We report Whole Genome Sequences (WGSs) for a phylogenetically-comprehensive subset of these isolates, representing a library of 3,632 WGSs, to enable researchers to test and predict phenotypes in vitro and in vivo. We also provide longitudinal 16S (1,169 samples from 90 donors), metagenomic (564 samples from 84 donors) and metabolomic data (179 samples from 83 donors) for a large cohort of FMT donors.</STUDY_ABSTRACT>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>pubmed</DB>
+                    <ID>31477907</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS4883132-SRS4884131,SRS4894039-SRS4895038,SRS4895269-SRS4895436,SRS4895480-SRS4896479,SRS4897389-SRS4898020,SRS4899431-SRS4899993,SRS4947714-SRS4948713</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX5976618-SRX5977617,SRX5988860-SRX5989859,SRX5990099-SRX5990266,SRX5990310-SRX5991309,SRX5992382-SRX5993013,SRX5994504-SRX5995066,SRX6044636-SRX6045635</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR9205532-SRR9206531,SRR9218360-SRR9219359,SRR9219599-SRR9219766,SRR9219810-SRR9220809,SRR9221882-SRR9222513,SRR9224004-SRR9224566,SRR9274566-SRR9275565</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>SRA894447</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP200548&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP200548&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>parent_bioproject</TAG>
+               <VALUE>PRJNA608517</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>13910147588</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>3219552561402</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2019-08-01</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2020-04-14</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

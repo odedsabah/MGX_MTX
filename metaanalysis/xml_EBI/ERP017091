@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="ERP017091" alias="ena-STUDY-BGI-12-09-2016-11:17:10:160-245" center_name="Beijing Genome Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>ERP017091</PRIMARY_ID>
+          <SECONDARY_ID>PRJEB15371</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Beijing Genome Institute">ena-STUDY-BGI-12-09-2016-11:17:10:160-245</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>The gut microbiome in Crohn's disease and modulation by exclusive enteral nutrition</STUDY_TITLE>
+          <STUDY_ABSTRACT>AbstractBackgroundInflammatory bowel diseases (IBD), with Crohn’s disease (CD) being one of the primary types, have been extensively studied for genetic and gut microbial factors leading to its epidemic in the modern world. However, limited information using metagenomic shotgun-sequencing to pinpoint the gut microbial species and functions involved. Exclusive enteral nutrition (EEN) is a nutritional therapy used for disease-modifying treatment of CD, but its impact on the gut microbiome remains unclear. ResultsWe collected 123 stool samples from 49 CD patients, 14 of whom were resampled after 2 weeks of EEN, and 56 subjects with no disease. Metagenomic shotgun sequencing and analyses confirmed a decreased diversity in the gut microbiota of CD patients, and identified microbial species and potential functions altered in CD, most notably an increased ratio of hexa- to penta-acylated lipopolysaccharide (LPS). Some co-abundance gene groups (CAGs) including Parabacteroides distasonis, Bacteroides intestinalis, Ruminococcus sp. showed strong correlation with clinical indicators such as hs.CRP, Prealbumin, platelets and BMI. The entire cohort could be divided into three types according to their species composition, with Type A largely consisting of healthy controls and Type C containing exclusively CD or after EEN samples. Although compositional changes were generally mild after 2 weeks of EEN, remodeling of the gut microbial network could be observed.ConclusionsOur metagenomic dataset unlock the gut microbiome in CD for functional investigations. Microbiome-based stratification of CD patients before EEN might help optimize the therapy for wider applications.</STUDY_ABSTRACT>
+          <STUDY_DESCRIPTION>AbstractBackgroundInflammatory bowel diseases (IBD), with Crohn’s disease (CD) being one of the primary types, have been extensively studied for genetic and gut microbial factors leading to its epidemic in the modern world. However, limited information using metagenomic shotgun-sequencing to pinpoint the gut microbial species and functions involved. Exclusive enteral nutrition (EEN) is a nutritional therapy used for disease-modifying treatment of CD, but its impact on the gut microbiome remains unclear. ResultsWe collected 123 stool samples from 49 CD patients, 14 of whom were resampled after 2 weeks of EEN, and 56 subjects with no disease. Metagenomic shotgun sequencing and analyses confirmed a decreased diversity in the gut microbiota of CD patients, and identified microbial species and potential functions altered in CD, most notably an increased ratio of hexa- to penta-acylated lipopolysaccharide (LPS). Some co-abundance gene groups (CAGs) including Parabacteroides distasonis, Bacteroides intestinalis, Ruminococcus sp. showed strong correlation with clinical indicators such as hs.CRP, Prealbumin, platelets and BMI. The entire cohort could be divided into three types according to their species composition, with Type A largely consisting of healthy controls and Type C containing exclusively CD or after EEN samples. Although compositional changes were generally mild after 2 weeks of EEN, remodeling of the gut microbial network could be observed.ConclusionsOur metagenomic dataset unlock the gut microbiome in CD for functional investigations. Microbiome-based stratification of CD patients before EEN might help optimize the therapy for wider applications.</STUDY_DESCRIPTION>
+          <CENTER_PROJECT_NAME>123CD-metagenomics</CENTER_PROJECT_NAME>
+          <STUDY_TYPE existing_study_type="Other"/>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS1343317-ERS1343439</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX1690620-ERX1690742</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR1620255-ERR1620377</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA701286</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP017091&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP017091&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>3377652382</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>663826771532</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-11-11</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2016-09-12</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

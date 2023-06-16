@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="ERP108811" alias="CNP0000037" broker_name="China National GeneBank (CNGB) Jinsha Road, Dapeng District, Shenzhen" center_name="CNGB">
+     <IDENTIFIERS>
+          <PRIMARY_ID>ERP108811</PRIMARY_ID>
+          <SECONDARY_ID>PRJEB26795</SECONDARY_ID>
+          <SUBMITTER_ID namespace="CNGB">CNP0000037</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>KOALA cohort metagenome study</STUDY_TITLE>
+          <STUDY_ABSTRACT>To investigate the gut microbial characteristics of healthy Dutch children at 6-9 years as well as the relationship between their gut microbiota and multiple phenotypic factors, we collected stool samples from 281 children aged 6-9 years (mean age 7.25 years) enrolled in the KOALA Birth Cohort Study.</STUDY_ABSTRACT>
+          <STUDY_DESCRIPTION>To investigate the gut microbial characteristics of healthy Dutch children at 6-9 years as well as the relationship between their gut microbiota and multiple phenotypic factors, we collected stool samples from 281 children aged 6-9 years (mean age 7.25 years) enrolled in the KOALA Birth Cohort Study.</STUDY_DESCRIPTION>
+          <CENTER_PROJECT_NAME>KOALA cohort metagenome study</CENTER_PROJECT_NAME>
+          <STUDY_TYPE existing_study_type="Other"/>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS2629390-ERS2629392,ERS2630813-ERS2630814,ERS2630837,ERS2632084-ERS2632113,ERS2633653-ERS2633895,ERS2634148-ERS2634149</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX2736692-ERX2736699,ERX2740870,ERX2744478-ERX2744480,ERX2744485-ERX2744530,ERX2744532-ERX2744537,ERX2744539-ERX2744545,ERX2744556-ERX2744576,ERX2746096-ERX2746130,ERX2746132-ERX2746135,ERX2746137-ERX2746197,ERX2746199-ERX2746209,ERX2746211-ERX2746217,ERX2746219-ERX2746223,ERX2746225-ERX2746230,ERX2746232-ERX2746240,ERX2862365-ERX2862369,ERX2867709-ERX2867713,ERX2868199,ERX2868204-ERX2868208,ERX3005765-ERX3005891,ERX3006090-ERX3006092,ERX3006280-ERX3006305,ERX3006542-ERX3006607,ERX3006612-ERX3006637,ERX3007388-ERX3007398,ERX3014342,ERX3014358-ERX3014375,ERX3014385-ERX3014389,ERX3014391-ERX3014393,ERX3014395-ERX3014399,ERX3014401,ERX3014410-ERX3014412,ERX3014415-ERX3014417,ERX3014419-ERX3014421,ERX3016288-ERX3016299,ERX3016357-ERX3016359</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR2722921-ERR2722928,ERR2727586,ERR2731249-ERR2731251,ERR2731260-ERR2731305,ERR2731307-ERR2731312,ERR2731314-ERR2731320,ERR2731331-ERR2731351,ERR2732871-ERR2732905,ERR2732907-ERR2732910,ERR2732912-ERR2732972,ERR2732974-ERR2732984,ERR2732986-ERR2732992,ERR2732994-ERR2732998,ERR2733000-ERR2733005,ERR2733007-ERR2733015,ERR2855775-ERR2855784,ERR2861466-ERR2861475,ERR2861961,ERR2861966-ERR2861970,ERR3003386-ERR3003512,ERR3003711-ERR3003713,ERR3003901-ERR3003926,ERR3004163-ERR3004228,ERR3004233-ERR3004258,ERR3005009-ERR3005019,ERR3011897-ERR3011915,ERR3011925-ERR3011929,ERR3011931-ERR3011933,ERR3011935-ERR3011939,ERR3011941,ERR3011950-ERR3011952,ERR3011955-ERR3011956,ERR3011958-ERR3011961,ERR3013836-ERR3013847,ERR3013905-ERR3013907</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA1487584</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP108811&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP108811&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>project_data_type</TAG>
+               <VALUE>Raw sequence reads</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>sample_scope</TAG>
+               <VALUE>Multispecies</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>label</TAG>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>public_desc</TAG>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>relevance</TAG>
+               <VALUE>Environmental</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>7001225696</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>1279668712335</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-05-17</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2018-05-17</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

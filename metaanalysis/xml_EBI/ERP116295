@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="ERP116295" alias="ena-STUDY-INRA-META-13-07-2019-15:31:12:468-622" center_name="Institut National pour la Recherche Agronomique (FRANCE)">
+     <IDENTIFIERS>
+          <PRIMARY_ID>ERP116295</PRIMARY_ID>
+          <SECONDARY_ID>PRJEB33500</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Institut National pour la Recherche Agronomique (FRANCE)">ena-STUDY-INRA-META-13-07-2019-15:31:12:468-622</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Mediterranean diet intervention in overweight and obese subjects leads to multiple beneficial shifts in gut microbiome and metabolome independently from energy intake</STUDY_TITLE>
+          <STUDY_ABSTRACT>ObjectivesEpidemiological studies show that Mediterranean diet (MD) has multiple benefits in the prevention of different types of disease. Consequences of a MD intervention on the overall metabolic and microbiome responses in subjects at risk of metabolic diseases are still underinvestigated. We aimed at unvealing the effects of a personalized isocaloric MD intervention in overweight and obese subjects with unhealthy dietary habits and lifestyle.DesignEighty-two healthy overweight and obese subjects with habitual low intake of fruit and vegetables and sedentary lifestyle participated in  a parallel 8 week-randomized controlled trial. Forty-three participants received a MD, tailored to their habitual energy intakes, and 39 maintained their habitual diets. Blood, urine and faecal samples along with dietary information and anthropometric measures were collected over the study period to monitor dietary changes, several metabolic parameters and the gut microbiome.ResultsMD subjects significantly increased their adherence to MD. Daily intakes of vegetal food products, providing dietary fiber, vegetable proteins and polyunsaturated fatty acids, dramatically increased while foods of animal origin were reduced. Adherence was confirmed by diet-driven metabolome shifts including reductions of plasma and urinary levels of carnitine, and led to reduction of total plasma cholesterol, total and secondary faecal bile acids. Gut microbiome also changed, for which variations of gene richness and inflammation were found anticorrelated and for which levels of fibre degrading Faecalibacterium prausnitzii increased, escorted by microbial functions linked to butyrate metabolism. Moreover, consistent links were highlighted among urolithin production, bile acids degradation and insulin sensitivity with specific microbial species and dietary patterns.ConclusionMD drives multiple shifts in gut microbiome and metabolome independently from energy intake.</STUDY_ABSTRACT>
+          <STUDY_DESCRIPTION>ObjectivesEpidemiological studies show that Mediterranean diet (MD) has multiple benefits in the prevention of different types of disease. Consequences of a MD intervention on the overall metabolic and microbiome responses in subjects at risk of metabolic diseases are still underinvestigated. We aimed at unvealing the effects of a personalized isocaloric MD intervention in overweight and obese subjects with unhealthy dietary habits and lifestyle.DesignEighty-two healthy overweight and obese subjects with habitual low intake of fruit and vegetables and sedentary lifestyle participated in  a parallel 8 week-randomized controlled trial. Forty-three participants received a MD, tailored to their habitual energy intakes, and 39 maintained their habitual diets. Blood, urine and faecal samples along with dietary information and anthropometric measures were collected over the study period to monitor dietary changes, several metabolic parameters and the gut microbiome.ResultsMD subjects significantly increased their adherence to MD. Daily intakes of vegetal food products, providing dietary fiber, vegetable proteins and polyunsaturated fatty acids, dramatically increased while foods of animal origin were reduced. Adherence was confirmed by diet-driven metabolome shifts including reductions of plasma and urinary levels of carnitine, and led to reduction of total plasma cholesterol, total and secondary faecal bile acids. Gut microbiome also changed, for which variations of gene richness and inflammation were found anticorrelated and for which levels of fibre degrading Faecalibacterium prausnitzii increased, escorted by microbial functions linked to butyrate metabolism. Moreover, consistent links were highlighted among urolithin production, bile acids degradation and insulin sensitivity with specific microbial species and dietary patterns.ConclusionMD drives multiple shifts in gut microbiome and metabolome independently from energy intake.</STUDY_DESCRIPTION>
+          <CENTER_PROJECT_NAME>Mediterranean diet intervention in overweight and obese subjects leads to multiple beneficial shifts in gut microbiome and metabolome independently from energy intake</CENTER_PROJECT_NAME>
+          <STUDY_TYPE existing_study_type="Other"/>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS4277259-ERS4277410,ERS4277412-ERS4277421,ERS4277423-ERS4277451,ERS4277453-ERS4277505</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX3869075-ERX3870067</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR3857002-ERR3857994</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA2037587</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP116295&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP116295&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>5121712784</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>777860142326</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2020-02-17</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-07-13</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

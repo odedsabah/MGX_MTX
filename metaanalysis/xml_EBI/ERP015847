@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="ERP015847" alias="ena-STUDY-ICL-CFB-01-06-2016-10:47:29:403-87" center_name="Imperial College London">
+     <IDENTIFIERS>
+          <PRIMARY_ID>ERP015847</PRIMARY_ID>
+          <SECONDARY_ID>PRJEB14215</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Imperial College London">ena-STUDY-ICL-CFB-01-06-2016-10:47:29:403-87</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>The role of the intestinal microflora in non-alcoholic fatty liver disease (NAFLD) (FP7)</STUDY_TITLE>
+          <STUDY_ABSTRACT>As worldwide metabolic disease pandemics rise relentlessly with their concomitant clinical complications such as non-alcoholic fatty liver disease (NAFLD), FLORINASH sought to use an innovative research concept to address the role of the intestinal microbiota in the pathogenesis of NAFLD. Metagenomic data deposited herein are from patients who underwent bariatric surgery, and for whom liver biopsies were available to allow diagnosis of NAFLD.</STUDY_ABSTRACT>
+          <STUDY_DESCRIPTION>As worldwide metabolic disease pandemics rise relentlessly with their concomitant clinical complications such as non-alcoholic fatty liver disease (NAFLD), FLORINASH sought to use an innovative research concept to address the role of the intestinal microbiota in the pathogenesis of NAFLD. Metagenomic data deposited herein are from patients who underwent bariatric surgery, and for whom liver biopsies were available to allow diagnosis of NAFLD.</STUDY_DESCRIPTION>
+          <CENTER_PROJECT_NAME>Florinash EU FP7</CENTER_PROJECT_NAME>
+          <STUDY_TYPE existing_study_type="Other"/>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS1190881-ERS1190953</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX1918751-ERX1918823</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR1857004-ERR1857076</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA640055</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP015847&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP015847&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>Funding Body</TAG>
+               <VALUE>European Union FP7</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>Project Number</TAG>
+               <VALUE>241913</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>1468871116</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>289478392170</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-03-14</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2016-06-01</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

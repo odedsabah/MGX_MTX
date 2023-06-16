@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="SRP000775" alias="Streptococcus_pyogenes_Pathogenomics" center_name="BI" broker_name="NCBI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>SRP000775</PRIMARY_ID>
+          <SECONDARY_ID>PRJNA36553</SECONDARY_ID>
+          <EXTERNAL_ID label="primary" namespace="BioProject">PRJNA36553</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="BI">Streptococcus_pyogenes_Pathogenomics</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Streptococcus pyogenes</STUDY_TITLE>
+          <STUDY_TYPE existing_study_type="Other"/>
+          <STUDY_ABSTRACT>GAS (group A Streptococcus) is a Gram-positive bacterium that causes several diseases in humans, including pharyngitis and/or tonsillitis, skin infections (impetigo, erysipelis, and other forms of pyoderma), acute rheumatic fever (ARF), scarlet fever (SF), poststreptococcal glomerulonephritis, a toxic-shock-like syndrome, and necrotizing fasciitis (NF). The overall goal of this project is to provide unique understanding, at the nucleotide level, of the molecular genetic events contributing to epidemics caused by a bacterial pathogen, including antibiotic-resistant strains.  The project will exploit the availability of a unique sample of 362 serotype M3 strains of group A Streptococcus recovered during an ongoing study of invasive infections in Ontario, Canada.</STUDY_ABSTRACT>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS003006-SRS003085,SRS024887,SRS066102-SRS066137,SRS107480-SRS107527,SRS114614-SRS114661</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX004870-SRX004952,SRX005690,SRX030848,SRX030880-SRX030883</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR016692-SRR016774,SRR017660,SRR057666-SRR057700,SRR064233-SRR064282,SRR065294-SRR065343,SRR068393-SRR068394</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>SRA008647</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP000775&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP000775&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>1106131756</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>78417308884</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2010-02-26</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2017-07-19</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

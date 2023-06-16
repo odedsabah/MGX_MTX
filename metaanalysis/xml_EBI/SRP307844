@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="SRP307844" alias="PRJNA630999" center_name="BioProject" broker_name="NCBI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>SRP307844</PRIMARY_ID>
+          <SECONDARY_ID>PRJNA630999</SECONDARY_ID>
+          <EXTERNAL_ID label="primary" namespace="BioProject">PRJNA630999</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="BioProject">PRJNA630999</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Premature infant microbiome Metagenome</STUDY_TITLE>
+          <STUDY_TYPE existing_study_type="Other"/>
+          <STUDY_ABSTRACT>Preterm infants are colonized with nosocomially acquired gut microbes, including pathogens, and experience enteric inflammation, which has been related to adverse clinical outcomes. There have been limited probiotic interventions that show meaningful improvement of quantifiable health indicators. Here we prospectively and longitudinally followed a cohort of preterm infants in two neonatal intensive care units. Our results demonstrate that feeding Bifidobacterium longum subsp. infantis (B. infantis) EVC001, resulted in significant beneficial impacts on the infants enteric inflammatory profile, human milk utilization, and that human milk feeding facilitates colonization by B. infantis. Further, these infants required fewer antibiotic exposures, had a significant reduction in antibiotic resistant genes (ARG) abundance, and significantly fewer incidences of diaper rash. These data show feeding B. infantis EVC001 to premature infants provides a meaningful strategy to reduce gut dysbiosis and antibiotic resistant gene abundance, as well as decrease enteric inflammation and may reduce the risk of morbidity and mortality in hospitalized infants.</STUDY_ABSTRACT>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS8311963-SRS8312176,SRS8312178-SRS8312255</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX10160074-SRX10160287,SRX10160289-SRX10160366</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR13774418-SRR13774495,SRR13774497-SRR13774710</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>SRA1199494</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP307844&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP307844&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>9550284035</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>2884185771566</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2021-02-25</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2021-02-25</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

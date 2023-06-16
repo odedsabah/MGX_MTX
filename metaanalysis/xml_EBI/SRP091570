@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="SRP091570" alias="PRJNA338184" center_name="BioProject" broker_name="NCBI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>SRP091570</PRIMARY_ID>
+          <SECONDARY_ID>PRJNA338184</SECONDARY_ID>
+          <EXTERNAL_ID label="primary" namespace="BioProject">PRJNA338184</EXTERNAL_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Human gut microbiome with bacterial pathogen challenge</STUDY_TITLE>
+          <STUDY_TYPE existing_study_type="Metagenomics"/>
+          <STUDY_ABSTRACT>This project takes advantage of challenge studies with an important human pathogen, enterotoxigenic Escherichia coli, the etiological agent of severe diarrhea in the developed countries and traveler’s diarrhea in individuals from developed countries. The goal of this study is to understand the dynamic interactions between the host, pathogen and microbiota and how these interactions play a role in determining the pathogen population in the host, the development of an immune response, and the diversity and ecology of the microbiota. The project uses a combination of genomic, transcriptomic and metagenomic technologies together with human challenge studies to generate new insights into the interaction of host, pathogen, and microbiota.</STUDY_ABSTRACT>
+          <CENTER_PROJECT_NAME>human gut metagenome</CENTER_PROJECT_NAME>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1746269-SRS1746281,SRS1754480-SRS1754495,SRS1756238-SRS1756253,SRS1760590-SRS1760606,SRS1767346-SRS1767367,SRS1771173-SRS1771200</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2245734-SRX2245875,SRX2254912-SRX2255051,SRX2263786-SRX2263923,SRX2269505-SRX2269642,SRX2282122-SRX2282264,SRX2313787-SRX2314074,SRX7657380-SRX7657407</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR4423569-SRR4423710,SRR4435685-SRR4435824,SRR4444743-SRR4444880,SRR4451528-SRR4451665,SRR4481682-SRR4481824,SRR4783377-SRR4783664,SRR10996296-SRR10996323</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>SRA485186</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP091570&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP091570&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>14394016722</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>3547124608064</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-10-21</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2016-10-21</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

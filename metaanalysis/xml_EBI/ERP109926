@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="ERP109926" alias="ena-STUDY-INRA-META-17-07-2018-10:17:45:659-524" center_name="Institut National pour la Recherche Agronomique (FRANCE)">
+     <IDENTIFIERS>
+          <PRIMARY_ID>ERP109926</PRIMARY_ID>
+          <SECONDARY_ID>PRJEB27799</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Institut National pour la Recherche Agronomique (FRANCE)">ena-STUDY-INRA-META-17-07-2018-10:17:45:659-524</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Prediction of the intestinal resistome by a novel 3D-based method</STUDY_TITLE>
+          <STUDY_ABSTRACT>The intestinal microbiota is considered to be a major reservoir of antibiotic resistance determinants (ARDs) that could potentially be transferred to bacterial pathogens. Yet, this question remains hypothetical because of the difficulty to identify ARDs from intestinal bacteria. Here, we developed and validated a new annotation method (called pairwise comparative modelling, PCM) based on homology modelling in order to characterize the Human intestinal resistome. We were able to predict 6,095 ARDs in a 3.9 million protein catalogue from the Human intestinal microbiota. We found that predicted ARDs (pdARDs) were distantly related to known ARDs (mean amino-acid identity 29.8%) and mostly (95.6%) located on the bacterial chromosome. Still, genes associated with mobility were found in the neighbourhood of 7.9% (484/6,095) of pdARDs. According to the composition of their resistome, we were able to cluster subjects from the MetaHIT cohort (n=663) into 6 “resistotypes”. Finally, we found that the relative abundance of pdARDs was positively associated with gene richness, but not when subjects were exposed to antibiotics. Altogether, our results support that most ARDs in the intestinal microbiota shall be considered as intrinsic genes of commensal microbiota with a low risk of transfer to bacterial pathogens.</STUDY_ABSTRACT>
+          <STUDY_DESCRIPTION>The intestinal microbiota is considered to be a major reservoir of antibiotic resistance determinants (ARDs) that could potentially be transferred to bacterial pathogens. Yet, this question remains hypothetical because of the difficulty to identify ARDs from intestinal bacteria. Here, we developed and validated a new annotation method (called pairwise comparative modelling, PCM) based on homology modelling in order to characterize the Human intestinal resistome. We were able to predict 6,095 ARDs in a 3.9 million protein catalogue from the Human intestinal microbiota. We found that predicted ARDs (pdARDs) were distantly related to known ARDs (mean amino-acid identity 29.8%) and mostly (95.6%) located on the bacterial chromosome. Still, genes associated with mobility were found in the neighbourhood of 7.9% (484/6,095) of pdARDs. According to the composition of their resistome, we were able to cluster subjects from the MetaHIT cohort (n=663) into 6 “resistotypes”. Finally, we found that the relative abundance of pdARDs was positively associated with gene richness, but not when subjects were exposed to antibiotics. Altogether, our results support that most ARDs in the intestinal microbiota shall be considered as intrinsic genes of commensal microbiota with a low risk of transfer to bacterial pathogens.</STUDY_DESCRIPTION>
+          <CENTER_PROJECT_NAME>Prediction of the intestinal resistome by a novel 3D-based method</CENTER_PROJECT_NAME>
+          <STUDY_TYPE existing_study_type="Other"/>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>30478291</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS2619774-ERS2619887</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX2722679-ERX2723755</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR2708507-ERR2709583</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA1547602</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP109926&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP109926&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>10261045106</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>374085252940</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-07-27</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2021-10-11</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

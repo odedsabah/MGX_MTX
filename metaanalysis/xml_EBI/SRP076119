@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="SRP076119" alias="PRJNA324129" center_name="BioProject" broker_name="NCBI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>SRP076119</PRIMARY_ID>
+          <SECONDARY_ID>PRJNA324129</SECONDARY_ID>
+          <EXTERNAL_ID label="primary" namespace="BioProject">PRJNA324129</EXTERNAL_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Human fecal microbiome before and after consumption of AH1206 - Raw sequence reads</STUDY_TITLE>
+          <STUDY_TYPE existing_study_type="Metagenomics"/>
+          <STUDY_ABSTRACT>Live bacteria have been used for decades in an attempt to modulate the human gut microbiota, but their colonization is mostly transient, and a conceptual understanding of the ecological role of exogenous microbes in gut ecosystems is lacking. Here we show that Bifidobacterium longum AH1206 stably persists in the gut of one third of human individuals for at least six months after being orally administered without causing gastrointestinal symptoms or impacting the composition of the resident gut microbiota. Engraftment of AH1206 was associated with low abundance of B. longum and specific carbohydrate utilization genes of this species in the pre-treatment microbiome. This pointed to inter-individual differences in the availability of resources that constitute a niche opportunity for colonization. The findings suggest that bacterial species and functional genes absent in the gut microbiome of individual humans can be reestablished, providing opportunities for precision microbiome reconstitution and a personalization of such strategies.</STUDY_ABSTRACT>
+          <CENTER_PROJECT_NAME>human gut metagenome</CENTER_PROJECT_NAME>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1483393,SRS1489974,SRS1490014,SRS1490016,SRS1490018,SRS1490022,SRS1490042,SRS1490064,SRS1499910,SRS1501559,SRS1531221-SRS1531276,SRS1539366,SRS1563115,SRS1563117-SRS1563118,SRS1563120,SRS1563122,SRS1563124-SRS1563125,SRS1563127,SRS1563129-SRS1563141,SRS1578670-SRS1578688</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1819548,SRX1828110,SRX1828152,SRX1828156,SRX1828158,SRX1828162,SRX1828203,SRX1828240,SRX1840729,SRX1842403,SRX1886524-SRX1886579,SRX1892410-SRX1892453,SRX1947528,SRX1947530,SRX1947534,SRX1947538,SRX1947542,SRX1947546-SRX1947547,SRX1947551,SRX1947555-SRX1947567,SRX1969324-SRX1969461</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR3642513,SRR3642932,SRR3642983,SRR3642986,SRR3642992,SRR3643023,SRR3643300,SRR3643325,SRR3663775-SRR3663776,SRR3730345-SRR3730400,SRR3736984-SRR3736991,SRR3736993-SRR3737007,SRR3737009-SRR3737018,SRR3737020-SRR3737026,SRR3737028-SRR3737031,SRR3917562-SRR3917563,SRR3917587,SRR3917608,SRR3917619,SRR3917627,SRR3917648,SRR3917665,SRR3917686-SRR3917698,SRR3943340-SRR3943477</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>SRA430747</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP076119&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP076119&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>1015044841</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>203820667339</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-06-23</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2016-06-23</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

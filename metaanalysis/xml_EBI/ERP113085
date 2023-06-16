@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="ERP113085" alias="ena-STUDY-AimiGene-08-01-2019-02:37:09:556-768" center_name="AimiGene">
+     <IDENTIFIERS>
+          <PRIMARY_ID>ERP113085</PRIMARY_ID>
+          <SECONDARY_ID>PRJEB30611</SECONDARY_ID>
+          <SUBMITTER_ID namespace="AimiGene">ena-STUDY-AimiGene-08-01-2019-02:37:09:556-768</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>The fecal microbiota has already altered in normoglycemic individuals who go on to have type 2 diabetes</STUDY_TITLE>
+          <STUDY_ABSTRACT>Patients with type 2 diabetes have alterations in intestinal microbial composition. To investigate whether these changes occur before the impaired glucose regulation, we characterize gut microbiota in normoglycemic individuals who go on to develop type 2 diabetes. In a nested case-control study, we enrolled individuals with a similar living environment. In total, 341 normoglycemic individuals were followed for 5 years, including 30 who developed type 2 diabetes, 33 who developed prediabetes, and their matched controls. Fecal samples (126) collected at baseline underwent metagenomics sequencing.</STUDY_ABSTRACT>
+          <STUDY_DESCRIPTION>Patients with type 2 diabetes have alterations in intestinal microbial composition. To investigate whether these changes occur before the impaired glucose regulation, we characterize gut microbiota in normoglycemic individuals who go on to develop type 2 diabetes. In a nested case-control study, we enrolled individuals with a similar living environment. In total, 341 normoglycemic individuals were followed for 5 years, including 30 who developed type 2 diabetes, 33 who developed prediabetes, and their matched controls. Fecal samples (126) collected at baseline underwent metagenomics sequencing.</STUDY_DESCRIPTION>
+          <CENTER_PROJECT_NAME>The fecal microbiota has already altered in normoglycemic individuals who go on to have type 2 diabetes</CENTER_PROJECT_NAME>
+          <STUDY_TYPE existing_study_type="Other"/>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS3141687-ERS3141812</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX3182803-ERX3182928</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR3153726-ERR3153851</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA1713632</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP113085&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP113085&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>3231031567</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>968986408341</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2021-02-02</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2021-02-02</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

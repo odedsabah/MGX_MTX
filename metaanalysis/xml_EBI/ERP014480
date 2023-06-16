@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="ERP014480" alias="ena-STUDY-BGI-07-03-2016-07:20:57:115-70" center_name="Beijing Genome Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>ERP014480</PRIMARY_ID>
+          <SECONDARY_ID>PRJEB12947</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Beijing Genome Institute">ena-STUDY-BGI-07-03-2016-07:20:57:115-70</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Roux-en-Y gastric bypass surgery of morbidly obese patients shows swift and persistent changes of the individual gut microbiota</STUDY_TITLE>
+          <STUDY_ABSTRACT>Roux-en-Y gastric bypass (RYGB) is an effective means to achieve sustained weight loss for morbidly obese individuals. Besides rapid weight reduction, patients achieve major improvements of insulin sensitivity and glucose homeostasis. Dysbiosis of gut microbiota has been associated with obesity and some of its co-morbidities like type 2 diabetes, and major changes of gut bacterial communities have been hypothesized to mediate part of the beneficial metabolic effects observed after RYGB. This study we describe changes in gut microbial taxonomic composition and functional potential following RYGB.</STUDY_ABSTRACT>
+          <STUDY_DESCRIPTION>Roux-en-Y gastric bypass (RYGB) is an effective means to achieve sustained weight loss for morbidly obese individuals. Besides rapid weight reduction, patients achieve major improvements of insulin sensitivity and glucose homeostasis. Dysbiosis of gut microbiota has been associated with obesity and some of its co-morbidities like type 2 diabetes, and major changes of gut bacterial communities have been hypothesized to mediate part of the beneficial metabolic effects observed after RYGB. This study we describe changes in gut microbial taxonomic composition and functional potential following RYGB.</STUDY_DESCRIPTION>
+          <CENTER_PROJECT_NAME>GBP</CENTER_PROJECT_NAME>
+          <STUDY_TYPE existing_study_type="Other"/>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS1076027-ERS1076059</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX1377500-ERX1377565</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR1305877-ERR1305942</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA570326</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP014480&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP014480&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>1246087065</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>239792982709</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-08-21</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2016-03-07</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

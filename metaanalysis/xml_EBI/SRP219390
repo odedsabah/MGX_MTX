@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="SRP219390" alias="PRJNA561398" center_name="BioProject" broker_name="NCBI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>SRP219390</PRIMARY_ID>
+          <SECONDARY_ID>PRJNA561398</SECONDARY_ID>
+          <EXTERNAL_ID label="primary" namespace="BioProject">PRJNA561398</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="BioProject">PRJNA561398</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Temporal variation in the gastrointestinal microbiota of ICU patients</STUDY_TITLE>
+          <STUDY_TYPE existing_study_type="Other"/>
+          <STUDY_ABSTRACT>Extreme dysbiosis in the gastrointestinal microbiota is frequent in intensive care unit (ICU) patients. This dysbiosis is associated with increased risk of pathobiont colonization and healthcare-associated infections. Researchers have been increasingly interested in developing predictive microbiota disruption indices (MDIs) that could be used to identify patients at risk of poor health outcomes such as gastrointestinal colonization by drug-resistant bacteria or hospital-acquired infections. We used 16S rRNA gene sequencing and shotgun metagenomic sequencing of DNA extracted stool samples. The stool samples were collected on consecutive days. These samples and clinical/epidemiologic data were used to examine temporal patterns in the microbiome. We learned that the microbiota of ICU patients can fluctuate on a daily basis. Gastrointestinal domination by specific bacteria, which is considered a risk factor for infection, was common, variable, and due to both pathogens (e.g., Enterococcus) and commensal bacteria species (e.g., Lactobacillus). Fluctuations in the microbiota were generally what one would predict based on the specific taxa and resistance genes present and antibiotic(s) administered. The rapid changes in the GI microbiota have implications for the design of MDIs for patient monitoring.</STUDY_ABSTRACT>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS5310588-SRS5310715</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX6762017-SRX6762202</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR10024979-SRR10025164</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>SRA948009</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP219390&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP219390&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>875634113</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>263965739264</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2019-08-28</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-08-28</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

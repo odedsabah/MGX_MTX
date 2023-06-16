@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="ERP004605" alias="ena-STUDY-BGI-20-01-2014-11:48:28:582-216" center_name="Beijing Genome Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>ERP004605</PRIMARY_ID>
+          <SECONDARY_ID>PRJEB5224</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Beijing Genome Institute">ena-STUDY-BGI-20-01-2014-11:48:28:582-216</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>An integrated catalog of reference genes in the human gut microbiome</STUDY_TITLE>
+          <STUDY_ABSTRACT>The gut microbiota is key to human health and disease. Metagenome-wide association studies (MGWAS) that search for disease markers in the gut microbiota, species identification according to metagenomic linkage groups (MLGs) or metagenomic clusters (MGCs), and metatranscriptomics or metaproteomics studies, all depend on a reference gene catalog, which has only been available for individual cohorts or based on reference genome or protein sequences. Here we report a high-quality integrated reference gene catalog consisting 9,879,896 genes, using 6.4 TB sequencing data derived from 1267 published and unpublished human gut metagenomes from three continents. The catalog represents a comprehensive collection of common and rare species, genes and genetic variants, and suggests individuality in the human gut microbiota. Analyses of a group of Chinese and Danish samples using the catalog revealed country-specific signatures in nutrient and xenobiotic metabolism. Our data suggest that interventions on nutrition, pollution and epidemiology should be tailored to the gut microbiota of a given population or even personalized for an individual.</STUDY_ABSTRACT>
+          <STUDY_DESCRIPTION>The gut microbiota is key to human health and disease. Metagenome-wide association studies (MGWAS) that search for disease markers in the gut microbiota, species identification according to metagenomic linkage groups (MLGs) or metagenomic clusters (MGCs), and metatranscriptomics or metaproteomics studies, all depend on a reference gene catalog, which has only been available for individual cohorts or based on reference genome or protein sequences. Here we report a high-quality integrated reference gene catalog consisting 9,879,896 genes, using 6.4 TB sequencing data derived from 1267 published and unpublished human gut metagenomes from three continents. The catalog represents a comprehensive collection of common and rare species, genes and genetic variants, and suggests individuality in the human gut microbiota. Analyses of a group of Chinese and Danish samples using the catalog revealed country-specific signatures in nutrient and xenobiotic metabolism. Our data suggest that interventions on nutrition, pollution and epidemiology should be tailored to the gut microbiota of a given population or even personalized for an individual.</STUDY_DESCRIPTION>
+          <CENTER_PROJECT_NAME>IGC</CENTER_PROJECT_NAME>
+          <STUDY_TYPE existing_study_type="Population Genomics"/>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>24997786</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS396293-ERS396541,ERS455610-ERS455620</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX380533-ERX381094,ERX470330-ERX470346</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR414230-ERR414791,ERR504973-ERR504989</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-ANALYSIS</DB>
+                    <ID>ERZ1075338,ERZ1075376-ERZ1075377,ERZ1075384-ERZ1075387,ERZ1075400,ERZ1075403-ERZ1075406,ERZ1075418-ERZ1075419,ERZ1075428-ERZ1075429,ERZ1075442,ERZ1075444-ERZ1075447,ERZ1075454,ERZ1075491-ERZ1075494,ERZ1075525,ERZ1075548-ERZ1075552,ERZ1075573-ERZ1075574,ERZ1075579-ERZ1075580,ERZ1075586-ERZ1075588,ERZ1075604-ERZ1075605,ERZ1075607,ERZ1075644,ERZ1075658-ERZ1075659,ERZ1075666,ERZ1075692,ERZ1075695-ERZ1075706,ERZ1075712,ERZ1075740,ERZ1075752,ERZ1075756,ERZ1075781-ERZ1075782,ERZ1075784,ERZ1075852-ERZ1075856,ERZ1075864-ERZ1075867,ERZ1075881,ERZ1075885-ERZ1075889,ERZ1075893,ERZ1075896,ERZ1075904,ERZ1075916,ERZ1075928,ERZ1075938,ERZ1075971-ERZ1075972,ERZ1075980,ERZ1076003-ERZ1076004,ERZ1076069,ERZ1076084-ERZ1076085,ERZ1076093-ERZ1076095,ERZ1076098-ERZ1076099,ERZ1076125,ERZ1076131,ERZ1076163,ERZ1076166-ERZ1076170,ERZ1076185-ERZ1076186,ERZ1076192,ERZ1076203-ERZ1076204,ERZ1076220,ERZ1076225-ERZ1076226,ERZ1076230-ERZ1076235,ERZ1076262-ERZ1076263,ERZ1076269-ERZ1076271,ERZ1076331-ERZ1076333,ERZ1076355,ERZ1076391,ERZ1076440-ERZ1076450,ERZ1076453,ERZ1076458-ERZ1076459,ERZ1076479-ERZ1076481,ERZ1076529-ERZ1076530,ERZ1076536,ERZ1076539,ERZ1076561,ERZ1076563-ERZ1076564,ERZ1076597-ERZ1076601,ERZ1076609,ERZ1076647-ERZ1076649,ERZ1076662,ERZ1076674-ERZ1076677,ERZ1076679,ERZ1076723-ERZ1076724,ERZ1076731,ERZ1076742-ERZ1076745,ERZ1076772-ERZ1076773,ERZ1076778,ERZ1076783,ERZ1076830-ERZ1076834,ERZ1076840-ERZ1076841,ERZ1076857-ERZ1076858,ERZ1076911-ERZ1076913,ERZ1076963,ERZ1076979,ERZ1076990,ERZ1076998-ERZ1077002,ERZ1077010-ERZ1077011,ERZ1077028-ERZ1077031,ERZ1077042,ERZ1077092,ERZ1077132-ERZ1077133,ERZ1077136,ERZ1077156,ERZ1077184,ERZ1077201-ERZ1077204,ERZ1077234,ERZ1077256-ERZ1077258,ERZ1077267,ERZ1077272-ERZ1077276,ERZ1077291,ERZ1077300-ERZ1077301,ERZ1077305,ERZ1077331,ERZ1077357,ERZ1077370-ERZ1077373,ERZ1077378-ERZ1077379</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA281365</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP004605&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP004605&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>9134244964</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>1471594190043</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2014-06-25</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2014-07-14</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="SRP230692" alias="PRJNA589866" center_name="BioProject" broker_name="NCBI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>SRP230692</PRIMARY_ID>
+          <SECONDARY_ID>PRJNA589866</SECONDARY_ID>
+          <EXTERNAL_ID label="primary" namespace="BioProject">PRJNA589866</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="BioProject">PRJNA589866</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>human gut metagenome Metagenome</STUDY_TITLE>
+          <STUDY_TYPE existing_study_type="Other"/>
+          <STUDY_ABSTRACT>When ß-lactam antibiotics are administered intravenously (IV), a significant portion can be excreted through the bile into the intestine and disrupt the gut microbiome. This can lead to increased susceptibility to certain types of infection, as well as contribute to increase risk of antimicrobial resistance. When given with IV ß-lactam antibiotics, Ribaximase degrades excess antibiotics excreted into the upper GI tract before they can disrupt the gut microbiome and alter the resistome.During a Phase 2b clinical study, Ribaxamase treatment led to significant reduction in Clostridium difficile infection in patients receiving ceftriaxone. Longitudinal fecal samples (349) were collected from the patients, and the metagenomic content of these samples was sequenced.The results of this study found a significant increase in ß-lactamase (CfxA) and vancomycin resistance genes (vanD) in placebo-treated vs. ribaxamase-treated patients. We also identified significant correlations between changes in the gut resistome and clinical study parameters including ß-lactamase gene frequency and study drug assignment, and efflux pump gene frequency and vancomycin resistance. Taken together, these findings demonstrated that coadministration of ribaxamase with IV ß-lactam antibiotics can protect the integrity of the gut resistome and may help limit the emergence of AMR induced by these antibiotics.</STUDY_ABSTRACT>
+          <CENTER_PROJECT_NAME>human gut metagenome</CENTER_PROJECT_NAME>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS5694504-SRS5694852</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX7188420-SRX7188768</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR10499395-SRR10499743</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>SRA998727</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP230692&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP230692&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>12847719481</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>2595239335162</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2020-12-01</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2020-12-01</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

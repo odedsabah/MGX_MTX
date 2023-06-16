@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="SRP090628" alias="PRJNA290380" center_name="BioProject" broker_name="NCBI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>SRP090628</PRIMARY_ID>
+          <SECONDARY_ID>PRJNA290380</SECONDARY_ID>
+          <EXTERNAL_ID label="primary" namespace="BioProject">PRJNA290380</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="BioProject">PRJNA290380</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>A longitudinal analysis of the developing gut microbiome in infants from Finland, Estonia, and Russian Karelia</STUDY_TITLE>
+          <STUDY_TYPE existing_study_type="Metagenomics"/>
+          <STUDY_ABSTRACT>This is a longitudinal collection of stool samples from infants at risk for disease. Approximately 1,000 newborns were recruited to the birth cohort as part of the international DIABIMMUNE Study (http://www.diabimmune.org/) for which the consent rate was 80% in Tartu, Estonia, 59% in Espoo, Finland, and 24% in Petrozavodsk, Russia. Recruitment took place between September 2008 and May 2010 in Estonia and Finland, and between September 2008 and July 2011 in Russia. Follow-up was completed in April 2013 in Estonia and Finland, and in October 2013 in Russia. The final number of children included in the present study was 74 from each country. Inclusion criteria included positive cord blood testing for HLA DR-DQ alleles conferring increased risk for autoimmunity. The participating children were monitored prospectively for infections, use of drugs including antibiotics, and other life events.</STUDY_ABSTRACT>
+          <CENTER_PROJECT_NAME>human gut metagenome</CENTER_PROJECT_NAME>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>pubmed</DB>
+                    <ID>34083435</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1719087-SRS1719585,SRS1735436-SRS1735544,SRS1735546-SRS1735722</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX2199299-SRX2199572,SRX2199574-SRX2199606,SRX2199608-SRX2199799,SRX2234372-SRX2234480,SRX2234488-SRX2234664</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR4305031-SRR4305252,SRR4305254-SRR4305319,SRR4305321-SRR4305377,SRR4305379-SRR4305532,SRR4408001-SRR4408109,SRR4408117-SRR4408293</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-ANALYSIS</DB>
+                    <ID>ERZ1075332,ERZ1075337,ERZ1075354,ERZ1075557,ERZ1075591,ERZ1075739,ERZ1075758,ERZ1075760,ERZ1075817,ERZ1075917,ERZ1076057,ERZ1076064,ERZ1076111,ERZ1076144-ERZ1076145,ERZ1076176,ERZ1076181-ERZ1076182,ERZ1076358,ERZ1076430,ERZ1076474,ERZ1076537,ERZ1076624,ERZ1076645-ERZ1076646,ERZ1076699,ERZ1076702,ERZ1076776,ERZ1076846,ERZ1076859,ERZ1076865,ERZ1076880-ERZ1076881,ERZ1076987,ERZ1076993,ERZ1077025,ERZ1077095,ERZ1077100,ERZ1077139,ERZ1077149,ERZ1077164,ERZ1077250,ERZ1077293,ERZ1077348</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>SRA481012</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP090628&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP090628&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>8275512972</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>1604747272749</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-10-07</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2021-06-15</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

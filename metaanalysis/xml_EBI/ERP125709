@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="ERP125709" alias="ena-STUDY-MEDICAL UNIVERSITY GRAZ-11-12-2020-09:51:27:777-104" center_name="MEDICAL UNIVERSITY GRAZ">
+     <IDENTIFIERS>
+          <PRIMARY_ID>ERP125709</PRIMARY_ID>
+          <SECONDARY_ID>PRJEB41867</SECONDARY_ID>
+          <SUBMITTER_ID namespace="MEDICAL UNIVERSITY GRAZ">ena-STUDY-MEDICAL UNIVERSITY GRAZ-11-12-2020-09:51:27:777-104</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Methane emission of humans is driven by a uniform archaeome, dietary parameters and formate availability.</STUDY_TITLE>
+          <STUDY_ABSTRACT>Methanogenic archaea, such as Methanobrevibacter smithii, are responsible for methane production in the human gastrointestinal tract (also detectable in breath). Approx. 20% of the European population exhales methane above 5 ppm, however, the underlying principles and reasons for high or low methane emission, and their effect on human health and disease are unknown. Herein, we focus on the differences in microbiome profile, microbial functions, metabolome and dietary habits of low and high methane producers within a cohort of 100 healthy participants between 18-37 years. We obtained the following datasets: microbiome and archaeome profile of stool samples from all 100 participants (amplicon-based 16S rRNA gene sequencing), methane-breath analysis of all 100, metagenomic and metabolomic information of stool samples from 30 matched participants, detailed dietary questionnaire of all participants. In this study, we were able to link human methane emission (CH4 value: 5-75 ppm) to a 1000-fold increase of M. smithii (representing about 2% of the microbial community). M. smithii co-occurred with a specific bacterial community specialized on dietary fibre degradation, including Ruminococcaceae and Christensenellaceae. Methane-production was negatively affected by high vitamin B12 and fat intake of the subjects, and correlated with increased formate concentrations within the gastrointestinal tract.</STUDY_ABSTRACT>
+          <STUDY_DESCRIPTION>Methanogenic archaea, such as Methanobrevibacter smithii, are responsible for methane production in the human gastrointestinal tract (also detectable in breath). Approx. 20% of the European population exhales methane above 5 ppm, however, the underlying principles and reasons for high or low methane emission, and their effect on human health and disease are unknown. Herein, we focus on the differences in microbiome profile, microbial functions, metabolome and dietary habits of low and high methane producers within a cohort of 100 healthy participants between 18-37 years. We obtained the following datasets: microbiome and archaeome profile of stool samples from all 100 participants (amplicon-based 16S rRNA gene sequencing), methane-breath analysis of all 100, metagenomic and metabolomic information of stool samples from 30 matched participants, detailed dietary questionnaire of all participants. In this study, we were able to link human methane emission (CH4 value: 5-75 ppm) to a 1000-fold increase of M. smithii (representing about 2% of the microbial community). M. smithii co-occurred with a specific bacterial community specialized on dietary fibre degradation, including Ruminococcaceae and Christensenellaceae. Methane-production was negatively affected by high vitamin B12 and fat intake of the subjects, and correlated with increased formate concentrations within the gastrointestinal tract.</STUDY_DESCRIPTION>
+          <CENTER_PROJECT_NAME>The human archaeome of high and low methane emitters.</CENTER_PROJECT_NAME>
+          <STUDY_TYPE existing_study_type="Other"/>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS5463945-ERS5463951,ERS5463953-ERS5463974,ERS5472415-ERS5472633</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX4795625,ERX4795629,ERX4795727,ERX4795729,ERX4795744,ERX4795757,ERX4795850,ERX4795957,ERX4796939-ERX4796941,ERX4800867,ERX4800869-ERX4800870,ERX4800872,ERX4801028,ERX4801185-ERX4801187,ERX4801241,ERX4801243-ERX4801244,ERX4801371,ERX4801530,ERX4801732,ERX4802905,ERX4802944,ERX4803016-ERX4803017,ERX4808223-ERX4808441</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR4981985,ERR4981989,ERR4982087,ERR4982089,ERR4982104,ERR4982117,ERR4982210,ERR4982318,ERR4983302-ERR4983304,ERR4991341,ERR4991343-ERR4991344,ERR4991346,ERR4991502,ERR4991659-ERR4991661,ERR4991715,ERR4991717-ERR4991718,ERR4991845,ERR4992005,ERR4992207,ERR4993380,ERR4993455,ERR4993530-ERR4993531,ERR4998737-ERR4998955</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA3194749</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP125709&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP125709&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>603790052</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>90326273425</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2021-02-10</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2020-12-11</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

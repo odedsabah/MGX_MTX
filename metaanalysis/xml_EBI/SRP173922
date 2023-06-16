@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="SRP173922" alias="PRJNA510445" center_name="BioProject" broker_name="NCBI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>SRP173922</PRIMARY_ID>
+          <SECONDARY_ID>PRJNA510445</SECONDARY_ID>
+          <EXTERNAL_ID label="primary" namespace="BioProject">PRJNA510445</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="BioProject">PRJNA510445</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>The relationship of fecal microbiomes and nutritional status in cystic fibrosis</STUDY_TITLE>
+          <STUDY_TYPE existing_study_type="Other"/>
+          <STUDY_ABSTRACT>Microbes that live in the gastrointestinal tracts of humans and other animals play key roles in the metabolism of nutrients, harvest of energy for the host, and the uptake of vitamins. Therefore, these microbes may be important contributors to diseases in which nutrients are poorly absorbed, the gastrointestinal tract is diseased, and/or the host grows poorly. The aim of this project is to determine the role of gastrointestinal microbes in the relentless and difficult-to-treat growth failure in children with the genetic disease cystic fibrosis, with the hope of both identifying interventions that will lead to better nutritional outcomes in these and in other children with poor early growth.</STUDY_ABSTRACT>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS4173228-SRS4173866,SRS4238122-SRS4238131,SRS4238133-SRS4238158,SRS4238160-SRS4238182,SRS4238184-SRS4238211,SRS4238213-SRS4238244,SRS4238246-SRS4238258,SRS4238260-SRS4238273,SRS4238275-SRS4238300,SRS4238302-SRS4238319,SRS4238321-SRS4238335,SRS4238337-SRS4238361,SRS4238363-SRS4238376,SRS4238378-SRS4238390,SRS4238392-SRS4238407,SRS4238409-SRS4238419,SRS4238421-SRS4238431,SRS4238433-SRS4238448,SRS4238450-SRS4238468,SRS4238470-SRS4238486,SRS4238488-SRS4238499,SRS4238501-SRS4238519,SRS4238521-SRS4238572,SRS4238574-SRS4238725,SRS4238727-SRS4238771,SRS4238773,SRS4238775-SRS4238786</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX5164428-SRX5165066,SRX5235414-SRX5236053</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR8353566-SRR8354204,SRR8427557-SRR8428196</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>SRA824991</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP173922&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP173922&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>17715683462</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>3235968316227</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2019-11-14</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-11-14</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

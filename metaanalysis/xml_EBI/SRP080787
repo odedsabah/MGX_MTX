@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="SRP080787" alias="PRJNA328899" center_name="BioProject" broker_name="NCBI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>SRP080787</PRIMARY_ID>
+          <SECONDARY_ID>PRJNA328899</SECONDARY_ID>
+          <EXTERNAL_ID label="primary" namespace="BioProject">PRJNA328899</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="BioProject">PRJNA328899</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Mongolian Metagenome</STUDY_TITLE>
+          <STUDY_TYPE existing_study_type="Metagenomics"/>
+          <CENTER_PROJECT_NAME>human gut metagenome</CENTER_PROJECT_NAME>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>pubmed</DB>
+                    <ID>34083435</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1596768-SRS1596877</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1994156-SRX1994265</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR3992955-SRR3993064</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-ANALYSIS</DB>
+                    <ID>ERZ1075333,ERZ1075344,ERZ1075355-ERZ1075356,ERZ1075362,ERZ1075399,ERZ1075402,ERZ1075417,ERZ1075430,ERZ1075450,ERZ1075476,ERZ1075501-ERZ1075503,ERZ1075506-ERZ1075510,ERZ1075532-ERZ1075533,ERZ1075564-ERZ1075565,ERZ1075570,ERZ1075667,ERZ1075684-ERZ1075689,ERZ1075707-ERZ1075708,ERZ1075717-ERZ1075718,ERZ1075732-ERZ1075735,ERZ1075746-ERZ1075747,ERZ1075763,ERZ1075783,ERZ1075804,ERZ1075830-ERZ1075831,ERZ1075861,ERZ1075868-ERZ1075870,ERZ1075922,ERZ1075940,ERZ1075969,ERZ1075982,ERZ1076073-ERZ1076074,ERZ1076078,ERZ1076088-ERZ1076092,ERZ1076104,ERZ1076126-ERZ1076129,ERZ1076243-ERZ1076248,ERZ1076251,ERZ1076259,ERZ1076283-ERZ1076284,ERZ1076294,ERZ1076297,ERZ1076371,ERZ1076400-ERZ1076401,ERZ1076475-ERZ1076476,ERZ1076515,ERZ1076525-ERZ1076527,ERZ1076625-ERZ1076626,ERZ1076629-ERZ1076632,ERZ1076780-ERZ1076781,ERZ1076848-ERZ1076849,ERZ1076886-ERZ1076890,ERZ1076894-ERZ1076898,ERZ1076950,ERZ1077009,ERZ1077017-ERZ1077021,ERZ1077062-ERZ1077068,ERZ1077086-ERZ1077087,ERZ1077116,ERZ1077141,ERZ1077163,ERZ1077255,ERZ1077317-ERZ1077319</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>SRA447497</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP080787&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP080787&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>3204788143</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>943297387142</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2016-08-08</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2021-06-15</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

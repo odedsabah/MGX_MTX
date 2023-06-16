@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="ERP005989" alias="ena-STUDY-BGI-04-06-2014-09:30:47:422-666" center_name="Beijing Genome Institute">
+     <IDENTIFIERS>
+          <PRIMARY_ID>ERP005989</PRIMARY_ID>
+          <SECONDARY_ID>PRJEB6456</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Beijing Genome Institute">ena-STUDY-BGI-04-06-2014-09:30:47:422-666</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Dynamics and Stabilization of the Human Gut Microbiome during the First Year of Life</STUDY_TITLE>
+          <STUDY_ABSTRACT>The gastrointestinal tracts of mammalians are sterile in utero and colonized by microorganisms immediately after delivery. The subsequent development of the infant gut microbiota involves a complex succession of microbes, driven by factors such as gestational age, mode of delivery, antibiotic use, hygiene, geographical zone and type of feeding.</STUDY_ABSTRACT>
+          <STUDY_DESCRIPTION>The gastrointestinal tracts of mammalians are sterile in utero and colonized by microorganisms immediately after delivery. The subsequent development of the infant gut microbiota involves a complex succession of microbes, driven by factors such as gestational age, mode of delivery, antibiotic use, hygiene, geographical zone and type of feeding.</STUDY_DESCRIPTION>
+          <CENTER_PROJECT_NAME>InfantGut</CENTER_PROJECT_NAME>
+          <STUDY_TYPE existing_study_type="Population Genomics"/>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS473023-ERS473422</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX490923-ERX491322</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR525688-ERR526087</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-ANALYSIS</DB>
+                    <ID>ERZ1075346,ERZ1075436,ERZ1075448,ERZ1075479-ERZ1075480,ERZ1075488-ERZ1075489,ERZ1075560-ERZ1075563,ERZ1075606,ERZ1075638,ERZ1075651,ERZ1075755,ERZ1075765-ERZ1075766,ERZ1075769,ERZ1075786-ERZ1075787,ERZ1075822,ERZ1075826-ERZ1075829,ERZ1075892,ERZ1075902,ERZ1075996,ERZ1076005-ERZ1076006,ERZ1076046-ERZ1076048,ERZ1076081,ERZ1076140,ERZ1076149-ERZ1076151,ERZ1076158-ERZ1076159,ERZ1076164,ERZ1076172,ERZ1076178,ERZ1076180,ERZ1076197,ERZ1076289,ERZ1076293,ERZ1076317-ERZ1076319,ERZ1076372,ERZ1076392-ERZ1076393,ERZ1076396,ERZ1076428-ERZ1076429,ERZ1076439,ERZ1076503-ERZ1076504,ERZ1076511,ERZ1076565-ERZ1076567,ERZ1076585,ERZ1076641-ERZ1076644,ERZ1076650,ERZ1076667,ERZ1076681,ERZ1076697-ERZ1076698,ERZ1076714,ERZ1076741,ERZ1076794-ERZ1076795,ERZ1076821,ERZ1076842,ERZ1076854-ERZ1076856,ERZ1076869,ERZ1076885,ERZ1076908,ERZ1076942-ERZ1076943,ERZ1076948,ERZ1076959,ERZ1076991-ERZ1076992,ERZ1077003-ERZ1077004,ERZ1077047-ERZ1077048,ERZ1077078,ERZ1077085,ERZ1077102,ERZ1077108-ERZ1077109,ERZ1077119,ERZ1077127-ERZ1077128,ERZ1077137-ERZ1077138,ERZ1077140,ERZ1077143,ERZ1077145,ERZ1077153,ERZ1077171,ERZ1077175,ERZ1077185,ERZ1077200,ERZ1077292,ERZ1077302,ERZ1077309-ERZ1077310,ERZ1077312-ERZ1077313,ERZ1077351,ERZ1077354,ERZ1077363,ERZ1077385</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA315673</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP005989&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP005989&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>7958310520</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>1586930235680</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-06-01</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2014-06-04</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

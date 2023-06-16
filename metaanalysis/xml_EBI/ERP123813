@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="ERP123813" alias="ena-STUDY-INRA-META-03-09-2020-15:21:38:211-808" center_name="Institut National pour la Recherche Agronomique (FRANCE)">
+     <IDENTIFIERS>
+          <PRIMARY_ID>ERP123813</PRIMARY_ID>
+          <SECONDARY_ID>PRJEB40200</SECONDARY_ID>
+          <SUBMITTER_ID namespace="Institut National pour la Recherche Agronomique (FRANCE)">ena-STUDY-INRA-META-03-09-2020-15:21:38:211-808</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Alterations in gut microbiome in cirrhosis as assessed by quantitative metagenomics. Relationship with acute-on-chronic liver failure and mortality and prognosis.</STUDY_TITLE>
+          <STUDY_ABSTRACT>Alterations in gut microbiome in cirrhosis as assessed by quantitative metagenomics. Relationship with acute-on-chronic liver failure and mortality and prognosis.</STUDY_ABSTRACT>
+          <STUDY_DESCRIPTION>Alterations in gut microbiome in cirrhosis as assessed by quantitative metagenomics. Relationship with acute-on-chronic liver failure and mortality and prognosis.</STUDY_DESCRIPTION>
+          <CENTER_PROJECT_NAME>Alterations in gut microbiome in cirrhosis as assessed by quantitative metagenomics. Relationship with acute-on-chronic liver failure and mortality and prognosis.</CENTER_PROJECT_NAME>
+          <STUDY_TYPE existing_study_type="Other"/>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>PUBMED</DB>
+                    <ID>32941879</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS5094861-ERS5095042</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX4551549-ERX4552350</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR4622720-ERR4623521</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA2830507</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP123813&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP123813&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>3713064242</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>561910449492</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2020-10-08</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2021-10-11</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

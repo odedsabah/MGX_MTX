@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="SRP248421" alias="PRJNA606198" center_name="BioProject" broker_name="NCBI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>SRP248421</PRIMARY_ID>
+          <SECONDARY_ID>PRJNA606198</SECONDARY_ID>
+          <EXTERNAL_ID label="primary" namespace="BioProject">PRJNA606198</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="BioProject">PRJNA606198</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Comparison of methods to collect fecal samples for microbiome studies using whole-genome shotgun metagenomic sequencing</STUDY_TITLE>
+          <STUDY_TYPE existing_study_type="Other"/>
+          <STUDY_ABSTRACT>Few previous studies have assessed stability and "gold-standard" concordance of fecal sample collection methods for whole genome shotgun metagenomic sequencing (WGSS), an increasingly popular method for studying the gut microbiome. We used WGSS data to investigate ambient temperature stability and putative gold-standard concordance of microbial profiles in fecal samples collected and stored using fecal occult blood test (FOBT) cards, fecal immunochemical tests (FIT) tubes, 95% ethanol, or RNAlater. Among 15 Mayo Clinic employees, for each collection method, we calculated intraclass correlation coefficients (ICCs) to estimate stability of fecal microbial profiles after storage for 4 days at ambient temperature and concordance with immediately-frozen, no-solution samples (i.e., the putative gold-standard). ICCs were estimated for multiple metrics including relative abundance of select phyla, species, KEGG k-genes, KEGG modules, KEGG pathways, species and k-gene alpha diversity, and Bray-Curtis and Jaccard species beta diversity. ICCs for microbial profile stability were excellent for fecal samples collected via most of the collection methods, except those preserved in 95% ethanol. Concordance with the immediately-frozen, no-solution samples varied for all collection methods, but the number of observed species and the beta diversity metrics tended to have higher concordance than other metrics. Our findings, taken together with previous studies and feasibility considerations, indicated that FOBT cards, FIT tubes, and RNAlater are acceptable choices for fecal sample collection methods in future WGSS studies.</STUDY_ABSTRACT>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS6135689-SRS6135836</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX7712695-SRX7712842</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR11072946-SRR11073093</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>SRA1041928</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP248421&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP248421&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>2734401468</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>544214965424</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2020-02-13</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2020-02-13</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

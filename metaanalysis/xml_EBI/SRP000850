@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="SRP000850" alias="Brucella_species_WGS_Comparative_multi_isolate" center_name="BI" broker_name="NCBI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>SRP000850</PRIMARY_ID>
+          <SECONDARY_ID>PRJNA31209</SECONDARY_ID>
+          <EXTERNAL_ID label="primary" namespace="BioProject">PRJNA31209</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="BI">Brucella_species_WGS_Comparative_multi_isolate</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Comparative genomics of the genus Brucella</STUDY_TITLE>
+          <STUDY_TYPE existing_study_type="Other"/>
+          <STUDY_ABSTRACT>Adrian M. Whatmore, Rebekah Tiller, Jeffrey T. Foster, Ph.D.  The comparative genomics of the zoonotic genus Brucella and development of diagnostic resources for epidemiological tracking of potential bioweapons agents.</STUDY_ABSTRACT>
+          <CENTER_PROJECT_NAME>Brucella</CENTER_PROJECT_NAME>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS000899,SRS000902-SRS000903,SRS000906,SRS000909,SRS000929,SRS000935,SRS000938,SRS000940,SRS000947,SRS000987,SRS000992,SRS001962-SRS001963,SRS001992-SRS001994,SRS001999,SRS024887,SRS401414-SRS401415,SRS401428-SRS401430,SRS405788-SRS405795</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX003063,SRX003394,SRX003429,SRX003434,SRX004086,SRX004489,SRX004494,SRX004498-SRX004499,SRX004648,SRX044082-SRX044096,SRX081391-SRX081392,SRX091194-SRX091195</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR107651-SRR107666,SRR136559-SRR136562,SRR136779-SRR136780,SRR138217,SRR138271-SRR138275,SRR305196,SRR326169,SRR329936-SRR329938</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>SRA008844</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP000850&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP000850&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>parent_bioproject</TAG>
+               <VALUE>PRJNA47689</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>47017796</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>9561545787</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2010-02-26</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2017-09-25</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

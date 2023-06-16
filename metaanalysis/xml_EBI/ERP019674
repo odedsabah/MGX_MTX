@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="ERP019674" alias="ena-STUDY-EMBL-10-11-2016-12:17:07:135-980" center_name="European Molecular Biology Laboratory">
+     <IDENTIFIERS>
+          <PRIMARY_ID>ERP019674</PRIMARY_ID>
+          <SECONDARY_ID>PRJEB17784</SECONDARY_ID>
+          <SUBMITTER_ID namespace="European Molecular Biology Laboratory">ena-STUDY-EMBL-10-11-2016-12:17:07:135-980</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>The fecal microbiota in L-DOPA naive PD patients</STUDY_TITLE>
+          <STUDY_ABSTRACT>Parkinson’s disease (PD) presently is conceptualized as a protein aggregation disease in which pathology involves both, the enteric and the central nervous system, possibly spreading from one to another via the vagus nerves. As gastrointestinal dysfunction often precedes or parallels motor symptoms, the enteric system with its vast diversity of microorganisms may be involved in PD pathogenesis. Alterations in the enteric microbial taxonomic level of L-DOPA-naïve PD patients might also serve as a biomarker.We thus compared the fecal microbiomes of 31 early stage, L-DOPA-naive PD subjects to 28 age matched controls by metagenomic analysis.</STUDY_ABSTRACT>
+          <STUDY_DESCRIPTION>Parkinson’s disease (PD) presently is conceptualized as a protein aggregation disease in which pathology involves both, the enteric and the central nervous system, possibly spreading from one to another via the vagus nerves. As gastrointestinal dysfunction often precedes or parallels motor symptoms, the enteric system with its vast diversity of microorganisms may be involved in PD pathogenesis. Alterations in the enteric microbial taxonomic level of L-DOPA-naïve PD patients might also serve as a biomarker.We thus compared the fecal microbiomes of 31 early stage, L-DOPA-naive PD subjects to 28 age matched controls by metagenomic analysis.</STUDY_DESCRIPTION>
+          <CENTER_PROJECT_NAME>PD-GER</CENTER_PROJECT_NAME>
+          <STUDY_TYPE existing_study_type="Other"/>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>ERS1647277-ERS1647335</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>ERX1973523-ERX1973704,ERX1973715-ERX1973896</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>ERR1912946-ERR1913127,ERR1913138-ERR1913319</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>ERA759084</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP019674&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=ERP019674&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>1882540345</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>317460562336</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2017-04-06</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2016-11-10</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

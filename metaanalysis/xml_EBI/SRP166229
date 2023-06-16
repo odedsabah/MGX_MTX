@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="SRP166229" alias="PRJNA497734" center_name="BioProject" broker_name="NCBI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>SRP166229</PRIMARY_ID>
+          <SECONDARY_ID>PRJNA497734</SECONDARY_ID>
+          <EXTERNAL_ID label="primary" namespace="BioProject">PRJNA497734</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="BioProject">PRJNA497734</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Longitudinal gut microbiome sequence data combined from several DIABIMMUNE microbiome studies</STUDY_TITLE>
+          <STUDY_TYPE existing_study_type="Other"/>
+          <STUDY_ABSTRACT>This is a longitudinal collection of stool samples from young children at HLA conferred risk for autoimmune diseases. Nearly 700 newborns were recruited to the birth cohort as part of the international DIABIMMUNE Study (http://www.diabimmune.org/) for which the consent rate was 80% in Tartu, Estonia, 59% in Espoo, Finland, and 24% in Petrozavodsk, Russia. Recruitment took place between September 2008 and May 2010 in Estonia and Finland, and between September 2008 and July 2011 in Russia. This data set consists of samples from three previously published diabimmune studies with PMIDs 25662751, 27306663, 27133167. The participating children were monitored prospectively for infections, use of drugs including antibiotics, and other life events.</STUDY_ABSTRACT>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>pubmed</DB>
+                    <ID>30559407</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <URL_LINK>
+                    <LABEL>DIABIMMUNE microbiome project website</LABEL>
+                    <URL>https://pubs.broadinstitute.org/diabimmune/</URL>
+               </URL_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <URL_LINK>
+                    <LABEL>DIABIMMUNE study website</LABEL>
+                    <URL>https://diabimmune-17.ltdk.helsinki.fi/</URL>
+               </URL_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS3955184-SRS3955185,SRS3958257,SRS3958263-SRS3958837,SRS3962768-SRS3963339,SRS3963357,SRS3963359,SRS3963372,SRS3963386,SRS3987124-SRS3987318,SRS3987429-SRS3988426,SRS3988428,SRS3988432,SRS3988613-SRS3989612</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX4909404-SRX4909405,SRX4912883-SRX4913458,SRX4917789-SRX4918364,SRX4941739-SRX4941747,SRX4941932-SRX4942931,SRX4943368-SRX4943562,SRX4944769-SRX4944963,SRX4945095-SRX4946094,SRX4946294-SRX4947293</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR8082322-SRR8082323,SRR8085967-SRR8086542,SRR8090501-SRR8091076,SRR8115442-SRR8115450,SRR8115635-SRR8116634,SRR8117071-SRR8117265,SRR8118472-SRR8118666,SRR8118798-SRR8119797,SRR8119997-SRR8120996</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>SRA796330</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP166229&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP166229&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>10172914439</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>1451038949999</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2018-10-22</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2020-04-14</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

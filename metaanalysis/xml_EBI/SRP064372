@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="SRP064372" alias="PRJNA296946" center_name="BioProject" broker_name="NCBI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>SRP064372</PRIMARY_ID>
+          <SECONDARY_ID>PRJNA296946</SECONDARY_ID>
+          <EXTERNAL_ID label="primary" namespace="BioProject">PRJNA296946</EXTERNAL_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Gut microbiota from patients with Crohn''s disease</STUDY_TITLE>
+          <STUDY_TYPE existing_study_type="Metagenomics"/>
+          <STUDY_ABSTRACT>Study of gut microbiota from patients with Crohn''s disease</STUDY_ABSTRACT>
+          <CENTER_PROJECT_NAME>human gut metagenome</CENTER_PROJECT_NAME>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS1096086,SRS1096464,SRS1096527,SRS1097241-SRS1097242,SRS1097244,SRS1097246,SRS1097263,SRS1097712,SRS1097721,SRS1097741,SRS1097800,SRS1097808-SRS1097809,SRS1099444,SRS1103557,SRS1109845,SRS1109854,SRS1109860,SRS1109912-SRS1109915,SRS1109924,SRS1109933-SRS1109935,SRS1109938</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX1298529,SRX1299072,SRX1299256,SRX1300630-SRX1300631,SRX1300633,SRX1300653,SRX1300690,SRX1301438,SRX1301449,SRX1301488,SRX1301564,SRX1301572,SRX1301574,SRX1304777,SRX1310860,SRX1322293,SRX1322296,SRX1322309,SRX1322468-SRX1322472,SRX1322489-SRX1322491,SRX1322494</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR2544629,SRR2545383,SRR2545599,SRR2548169-SRR2548171,SRR2548364,SRR2548376,SRR2550018,SRR2550044,SRR2550166,SRR2550386,SRR2550388,SRR2558707-SRR2558708,SRR2571137,SRR2601007,SRR2601024,SRR2601033,SRR2601708,SRR2601717,SRR2601719-SRR2601720,SRR2601738,SRR2601749,SRR2601759-SRR2601761</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>SRA302290</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP064372&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP064372&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>986939582</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>51452394723</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2015-10-02</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2017-07-19</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="SRP019038" alias="PRJNA188481" center_name="BioProject" broker_name="NCBI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>SRP019038</PRIMARY_ID>
+          <SECONDARY_ID>PRJNA188481</SECONDARY_ID>
+          <EXTERNAL_ID label="primary" namespace="BioProject">PRJNA188481</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="BioProject">PRJNA188481</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Linking Lifestyle to the Oral and Gut Microbiota in a Large Prospective Cohort</STUDY_TITLE>
+          <STUDY_TYPE existing_study_type="Metagenomics"/>
+          <STUDY_ABSTRACT>Associating the biomolecular and metabolic activities of human-associated microbial communities with environment, diet, and conditions such as inflammatory bowel disease remains a significant challenge despite an ever-improving understanding of the human microbiome. This project aims to pilot detection of taxonomic and functional shifts with respect to diet and gastrointestinal disease status in a large prospective cohort: 1. We will establish a reliable and scalable collection method for the oral and gut microbiota. This will determine whether shippable collection kits are comparable to fresh frozen stool and/or saliva samples. 2. We will test the hypothesis that a Western dietary pattern correlates with microbiome community structures or functions enriched in inflammatory bowel disease in either the oral (saliva) or gut (stool) microbiota. By providing methodology to understand the human microbiome from the molecular to the population level, we hope to enable its future use as a diagnostic indicator and as a point of intervention to improve outcomes in IBD and other chronic diseases.</STUDY_ABSTRACT>
+          <CENTER_PROJECT_NAME>human metagenome</CENTER_PROJECT_NAME>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>pubmed</DB>
+                    <ID>34083435</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS399314-SRS399337,SRS399352-SRS399359</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX247333-SRX247356,SRX247375-SRX247406</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR769395-SRR769442,SRR769509-SRR769540</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>SRA068459</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP019038&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP019038&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>612810627</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>123787746654</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2013-03-12</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2021-06-17</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>

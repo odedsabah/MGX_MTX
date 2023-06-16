@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STUDY_SET>
+<STUDY accession="SRP168568" alias="PRJNA505354" center_name="BioProject" broker_name="NCBI">
+     <IDENTIFIERS>
+          <PRIMARY_ID>SRP168568</PRIMARY_ID>
+          <SECONDARY_ID>PRJNA505354</SECONDARY_ID>
+          <EXTERNAL_ID label="primary" namespace="BioProject">PRJNA505354</EXTERNAL_ID>
+          <SUBMITTER_ID namespace="BioProject">PRJNA505354</SUBMITTER_ID>
+     </IDENTIFIERS>
+     <DESCRIPTOR>
+          <STUDY_TITLE>Capturing microbial genome dynamics in the human gut using Hi-C</STUDY_TITLE>
+          <STUDY_TYPE existing_study_type="Metagenomics"/>
+          <STUDY_ABSTRACT>Horizontal gene transfer is responsible for modifying the genetic potential of microbes across different time-scales, yet current methods are limited in their ability to directly link mobile genetic elements and their microbial hosts in complex ecosystems such as the human gut. We apply Hi-C (high-resolution chromosome conformation capture), coupled with rigorous probabilistic modeling, to achieve a strain-level resolution of human gut microbiota genomes, from a single sample and without the use of reference genomes. By applying this method to samples from two healthy individuals we recovered 88 semi-complete genomes. Comparison to species-level reference genomes identified 47,928 strain-specific accessory genes (12,251 accessory elements) with a strong mobility signature that make up on average 19.5% of each genome. Analysis of samples from the same individual taken 10 years apart supports rapid in situ gene transfer and suggests that the mean half-life of an accessory gene in the human gut is between 11 and 88 years.</STUDY_ABSTRACT>
+          <CENTER_PROJECT_NAME>human gut metagenome</CENTER_PROJECT_NAME>
+     </DESCRIPTOR>
+     <STUDY_LINKS>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SAMPLE</DB>
+                    <ID>SRS4040351,SRS4040417,SRS4040466,SRS4040956</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-EXPERIMENT</DB>
+                    <ID>SRX5006143,SRX5006211,SRX5006260-SRX5006262,SRX5006938,SRX6957822-SRX6957824</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-RUN</DB>
+                    <ID>SRR8186307,SRR8186375,SRR8186424-SRR8186426,SRR8187104,SRR10238604-SRR10238606</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMISSION</DB>
+                    <ID>SRA809085</ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-FASTQ-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP168568&result=read_run&fields=run_accession,fastq_ftp,fastq_md5,fastq_bytes]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+          <STUDY_LINK>
+               <XREF_LINK>
+                    <DB>ENA-SUBMITTED-FILES</DB>
+                    <ID><![CDATA[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP168568&result=read_run&fields=run_accession,submitted_ftp,submitted_md5,submitted_bytes,submitted_format]]></ID>
+               </XREF_LINK>
+          </STUDY_LINK>
+     </STUDY_LINKS>
+     <STUDY_ATTRIBUTES>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-SPOT-COUNT</TAG>
+               <VALUE>2840985224</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-BASE-COUNT</TAG>
+               <VALUE>937191963966</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-FIRST-PUBLIC</TAG>
+               <VALUE>2019-10-08</VALUE>
+          </STUDY_ATTRIBUTE>
+          <STUDY_ATTRIBUTE>
+               <TAG>ENA-LAST-UPDATE</TAG>
+               <VALUE>2019-10-12</VALUE>
+          </STUDY_ATTRIBUTE>
+     </STUDY_ATTRIBUTES>
+</STUDY>
+</STUDY_SET>
