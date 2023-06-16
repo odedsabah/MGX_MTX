@@ -1,4 +1,7 @@
 metaanalysis/XML_EBI/XML_Files/
+MGX_MTX/metaanalysis/mp4.simulation/*.txt
+MGX_MTX/metaanalysis/mp4.simulation/*.stdout
+
 
 # macOS Specific Ignores
 # https://github.com/github/gitignore/blob/master/Global/macOS.gitignore
