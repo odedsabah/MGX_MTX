@@ -1,6 +1,0 @@
-#mpa_vOct22_CHOCOPhlAnSGB_202212
-#/mnt/data_1/software/metaphlan/metaphlan4/v4.0.6/env/bin/metaphlan temp.2000.metaphlan.sam --nreads 2970 --nproc 40 --input_type sam
-#2970 reads processed
-#SampleID	Metaphlan_Analysis
-#clade_name	NCBI_tax_id	relative_abundance	additional_species
-UNCLASSIFIED	-1	100.0	

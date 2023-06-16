@@ -1,5 +1,0 @@
-Tue May 9 12:41:57 IDT 2023
-MetaPhlAn version 4.0.6 (1 Mar 2023)
-/usr/bin/bowtie2-align-s version 2.4.4
-mpa version: /data1/software/metaphlan/metaphlan_databases/mpa_vOct22_CHOCOPhlAnSGB_202212/metaphlan_databases/mpa_vOct22_CHOCOPhlAnSGB_202212
-Bowtie2 command line: bowtie2 --sam-no-hd --sam-no-sq --no-unal --very-sensitive -S temp.2000.metaphlan.sam -x /data1/software/metaphlan/metaphlan_databases/mpa_vOct22_CHOCOPhlAnSGB_202212/metaphlan_databases/mpa_vOct22_CHOCOPhlAnSGB_202212 -U /data1/Oded.Sabah/mp4-coverage-test/novaseq_reads_R1/novaseq_reads_InSeq_X3_R1.fastq.gz -p 40 2> temp.2000.metaphlan.sam.log
