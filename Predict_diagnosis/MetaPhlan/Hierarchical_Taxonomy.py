@@ -3,39 +3,55 @@ import os
 import sys
 
 
-class Metaphlane3_abundance:
+class Metaphlane4_abundance:
 
-    def __init__(self,Path_MGX_MP):
-        self.Path_MGX_MP_CD = Path_MGX_MP
-        self.Name_Hierarchical = None
-        self.dict_Hierarchical = dict()
+    def __init__(self, path_MGX_MP):
+        self.path_MGX_MP_CD = path_MGX_MP
+        self.name_hierarchical = None
+        self.dict_hierarchical = dict()
+        self.all_data = dict()
+        self.id_files = set()
 
     def get_data(self):
-        '''
-        This function reads the information from a metaphlan file and stores it in two lists (bacteria_name, percent_list)
-        '''
-        samples = [x for x in os.listdir(self.Path_MGX_MP_CD) if x.endswith(".txt")]
+        samples = [x for x in os.listdir(self.path_MGX_MP_CD) if x.endswith(".txt")]
+
         for sample in samples:
-            with open(f'{self.Path_MGX_MP_CD}/{sample}') as s:
+            id_file = sample.split('.')[0]
+            self.id_files.add(id_file)
+
+            with open(f'{self.path_MGX_MP_CD}/{sample}') as s:
                 f = s.readlines()
+
             for line in f:
-                #k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Lachnospiraceae|g__Coprococcus|s__Coprococcus_comes 2|1239|186801|186802|186803|33042|410072        0.00264
                 split_line = line.strip().split()[0]
                 key = split_line.split('|')[-1]
-                self.dict_Hierarchical[key] = split_line
-        self.Name_Hierarchical = pd.DataFrame.from_dict(self.dict_Hierarchical,orient='index')
-        self.Name_Hierarchical.to_csv("~/Metaphlan4_prediction/Metaphlan4_set_species_UC.csv")
+                self.dict_hierarchical[key] = split_line
+                self.all_data[key] = split_line
+
+        self.name_hierarchical = pd.DataFrame.from_dict(self.dict_hierarchical, orient='index')
+        return self.name_hierarchical
+
+    def sankey_plot(self):
+        # Convert split data into dataframe
+        rows = [value.split('|') for value in self.all_data.values()]
+        col_names = ['Kingdom', 'Phylum', 'Class', 'Order', 'Family', 'Genus', 'Species', 'Strain']
+        df_sankey_plot = pd.DataFrame(rows, columns=col_names)
+        print(df_sankey_plot)
+        # return df_sankey_plot
 
 def main():
     if len(sys.argv) != 2:
-        quit("\nUsage: " + sys.argv[0] + "Path_MGX_MP \n\n")
+        quit("\nUsage: " + sys.argv[0] + " <Path_MGX_MP>\n\n")
 
     Path_MGX_MP = sys.argv[1]
 
-    M_A = Metaphlane3_abundance(Path_MGX_MP)
-    M_A.get_data()
+    M_A = Metaphlane4_abundance(Path_MGX_MP)
+    hierarchical_data = M_A.get_data()
+    sankey_data = M_A.sankey_plot()
 
 if __name__ == '__main__':
     main()
+
+
 
 

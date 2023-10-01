@@ -66,15 +66,13 @@ c2c1 %>%
     theme(panel.background = element_blank())
 dev.off()
 
-sample <- read.csv("/Users/odedsabah/Desktop/Book5 2.csv")
-mat = matrix(runif(36), 6)
-rownames(mat) = letters[1:6]
-colnames(mat) = letters[1:6]
 
-mat
+set.seed(125)
+# sample <- read.csv("/Users/odedsabah/Desktop/Book5 2.csv")
+sample <- read.csv("/Users/odedsabah/Downloads/To_circularplot.csv")
+
 sample<- as.matrix(sample)
-rownames(sample) <- c("metabolomics","metagenomics","metatranscriptomics","proteomics")
-sample
+rownames(sample) <- c("CD","IBD", "nonIBD","UC")
 
 library(circlize)
 circos.par(gap.degree = 4)
@@ -89,6 +87,6 @@ circos.trackPlotRegion(track.index = 1, panel.fun = function(x, y) {
 }, bg.border = NA)
 circos.trackPlotRegion(track.index = 2, panel.fun = function(x, y) {
   circos.axis("bottom", major.tick.percentage = 0.2, labels.cex = 0.4)
-}, bg.border = NA)
+}, bg.border = NA, bg.col = NA)
 circos.clear()
 
